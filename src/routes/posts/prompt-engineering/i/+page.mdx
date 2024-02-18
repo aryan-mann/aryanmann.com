@@ -1,0 +1,28 @@
+---
+title: Intuitions for Prompt Engineering
+date: 2024-02-18
+lastUpdated: 2024-02-18
+tags:
+  - llm
+  - prompting
+part: 1
+series: prompt-engineering
+hidden: true
+draft: true
+---
+
+## What is Prompt Engineering Anyway?
+
+In AI/LLM terminology, a prompt is what you feed into an LLM and a completion is what it spits out. If you're talking to a model built for chatting, feeding in the prompt "How are you?" will likely spit out the completion "I am good! What can I help you with?". What's often hidden from users is that each chat has a secret preamble - a set of instructions included at the beginning of the chat that instructs the model how to respond. Let's note this exchange down as:
+
+```yaml
+preamble: "You are a Chatbot for company ABC that helps user's make smart choices on their groceries."
+prompt: "How are you?"
+completion: "I am good! What can I help you with?"
+```
+
+So what is prompt engineering anyway? Well, it's the act of editing the prompt or preamble until the completions are consistently what you expect. For example, a corporation looking to use the above model for customer support might see the above exchange as say:
+
+> *Hmm.. We don't want the chatbot to personify itself. If someone asks it "How are you?", we want to it respond with a disclaimer that it does not have feelings and emotions as it's not a human.*
+
+This is where prompt engineering comes in. A person needs to edit the prompt to change the behavior of the model so it consistently complies with an expectation. The question then is "what can we add a delete to the prompt "

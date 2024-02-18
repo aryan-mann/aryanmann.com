@@ -21,8 +21,8 @@
 	<h3 class="py-2 text-xl text-center">this website has stuff about me and the work ive done.</h3>
 </div>
 <Tagline title="working on..." hasDog={true}>
-	currently im a part of the{' '}<a href='https://cohere.com/coral'>coral</a> team at{' '}<img class='inline h-4 w-4' alt='cohere logo' src='https://cohere.com/favicon.ico' />
-	<b>cohere</b>, working on figuring how to use large language models to build the next generation of user interfaces
+	currently im a part of the{' '}<a href='https://cohere.com/coral'>synth</a> team at{' '}<img class='inline h-4 w-4' alt='cohere logo' src='https://cohere.com/favicon.ico' />
+	<b>cohere</b>, figuring out the ins and outs of making and evaluating high quality synthetic data for steering LLMs
 </Tagline>
 <!-- Socials -->
 <Socials />
@@ -38,23 +38,23 @@
 				class="text-xl no-underline font-bold hover:text-primary-700 text-center w-full animate-pulse"
 				href={`https://${portfolioItem.website}`}
 				target="_blank" rel="noreferrer"
-				>{portfolioItem.displayName || portfolioItem.website}</a
+				>{portfolioItem.website || portfolioItem.website}</a
 			>
 			<a href={`https://${portfolioItem.website}`}>
 				<img class="shadow w-full aspect-video cursor-pointer transform-gpu hover:-rotate-1 hover:shadow-md duration-200" alt="" src={portfolioItem.image} />
 			</a>
 			{#if portfolioItem.description}
-				<p class="mt-3">{portfolioItem.description}</p>
+				<p class="mt-3 text-xl">{portfolioItem.description}</p>
 			{/if}
 		</div>
 	{/if}
 </Slider>
 <!-- Work Summary -->
-<h3 class="w-full py-4 mt-8 text-xl text-center">
+<h3 class="w-full py-4 mt-8 text-2xl text-center">
 	quick summary (<a href="https://github.com/aryan-mann">longer one here</a>)
 </h3>
 <div class="flex justify-center">
-	<ul class="max-w-screen-sm list-disc">
+	<ul class="max-w-screen-sm list-disc text-lg">
 		<li>
 			<b>july 2023 to present</b>{' '}– trying to make large language models useful to enterprises (ps: try talking to <a href="https://coral.cohere.com/">coral</a>)
 		</li>
@@ -95,7 +95,7 @@
 	{#each data.recentPosts as recentPost}
 	<div class='flex gap-4 items-center'>
 			<span class="mr-2">📝✍🏽</span><a class="text-xl no-underline hover:bg-slate-50 px-2" href={recentPost.url}>{recentPost.title}</a>
-			<p class='text-sm'>on {recentPost.date.toLocaleDateString('en-us', { year: 'numeric', month: 'long', day: 'numeric'})}</p>
+			<p class='text-sm whitespace-nowrap'>on {recentPost.date.toLocaleDateString('en-us', { year: 'numeric', month: 'long', day: 'numeric'})}</p>
 	</div>
 	{/each}
 </div>
