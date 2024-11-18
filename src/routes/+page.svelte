@@ -7,8 +7,12 @@
 	import MeImage from "@assets/images/me1.jpg";
 	import type { PageData } from './$types';
 	
-	let portfolioItem = SiteData.portfolio[0];
-	export let data: PageData;
+	let portfolioItem = $state(SiteData.portfolio[0]);
+	interface Props {
+		data: PageData;
+	}
+
+	let { data }: Props = $props();
 </script>
 
 <Meta title="Homepage" description="this website has stuff about me and the work ive done." />

@@ -5,11 +5,16 @@
 	import { alphabetize } from '../../utils';
 	import type { PageData } from './$types';
 
-	/** @type {import('./$types').PageData} */
-	export let data: PageData;
+	
+	interface Props {
+		/** @type {import('./$types').PageData} */
+		data: PageData;
+	}
 
-	$: filterBySeries = $page.url.searchParams.has('series');
-	$: suffix = filterBySeries ? $page.url.searchParams.get('series') : 'all';
+	let { data }: Props = $props();
+
+	let filterBySeries = $derived($page.url.searchParams.has('series'));
+	let suffix = $derived(filterBySeries ? $page.url.searchParams.get('series') : 'all');
 </script>
 
 <Meta title={suffix === 'all' ? 'Blog' : `Series: ${alphabetize(suffix)}`} />

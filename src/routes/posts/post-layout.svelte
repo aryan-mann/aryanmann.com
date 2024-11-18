@@ -1,14 +1,17 @@
-<script>
+<script lang="ts">
 	import Disqus from '@components/Disqus.svelte';
 	import Meta from '@components/Meta.svelte';
 	import { alphabetize, convertToDate } from '@utils';
 
-	export let title;
-	export let date;
-	export let tags;
-	export let lastUpdated;
-	export let series;
-	export let part;
+	let {
+		title,
+		date,
+		tags,
+		lastUpdated,
+		series,
+		part,
+		children
+	} = $props();
 </script>
 
 <Meta {title} {date} />
@@ -46,7 +49,7 @@
 	<hr class="mt-4 mb-4" />
 </div>
 <div class="typo flex flex-col">
-	<slot />
+	{@render children?.()}
 </div>
 <Disqus />
 <div class="mt-8 text-center text-gray-600">

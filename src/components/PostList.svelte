@@ -2,7 +2,11 @@
 	import { alphabetize, convertToDate, romanize } from '../utils';
 	import type { PostItem } from '../types/global';
 
-	export let posts: Array<PostItem> = [];
+	interface Props {
+		posts?: Array<PostItem>;
+	}
+
+	let { posts = [] }: Props = $props();
 </script>
 
 {#if posts.length <= 0}

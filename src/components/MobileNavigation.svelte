@@ -2,7 +2,7 @@
   import { SiteData } from '../site';
   import LogoBlack from "@assets/images/am_logo_black.png"
 
-  let isMenuOpen = true;
+  let isMenuOpen = $state(true);
 </script>
 
 {#if isMenuOpen}
@@ -19,11 +19,11 @@
   </div>
 </div>
 {/if}
-<!-- svelte-ignore a11y-click-events-have-key-events -->
+<!-- svelte-ignore a11y_click_events_have_key_events -->
 <div
   class="bg-primary-800 hover:bg-primary-500 top-6 right-10 md:hidden fixed z-50 flex items-center justify-center w-12 h-12 px-3 text-white transition-all duration-200 rounded-md cursor-pointer"
   class:open={isMenuOpen}
-  on:click={() => { isMenuOpen = !isMenuOpen; }}
+  onclick={() => { isMenuOpen = !isMenuOpen; }}
 >
   <!-- onClick={() => setMenuHidden(!isMenuHidden)} -->
   <GiHamburgerMenu />

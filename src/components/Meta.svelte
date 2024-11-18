@@ -2,10 +2,19 @@
   import { page } from '$app/stores';
   import { SiteData } from "../site";
 
-  export let title: string|null = null;
-  export let description: string|null = null;
-  export let keywords: Array<string> = [];
-  export let type: "article" = "article";
+  interface Props {
+    title?: string|null;
+    description?: string|null;
+    keywords?: Array<string>;
+    type?: "article";
+  }
+
+  let {
+    title = null,
+    description = null,
+    keywords = [],
+    type = "article"
+  }: Props = $props();
 </script>
 
 <svelte:head>
