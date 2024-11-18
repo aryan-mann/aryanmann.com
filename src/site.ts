@@ -1,8 +1,10 @@
-import FaGithub from 'svelte-icons/fa/FaGithub.svelte';
-import FaSpotify from 'svelte-icons/fa/FaSpotify.svelte';
-import FaMailBulk from 'svelte-icons/fa/FaMailBulk.svelte';
+// Icons
+import IconGithub from 'lucide-svelte/icons/github';
+import IconMusic from 'lucide-svelte/icons/audio-lines';
+import IconEmail from 'lucide-svelte/icons/mail';
 // Assets
 import PfOurSpaces from "@assets/images/sc_spaces.png"
+import PfCoral from "@assets/images/sc_coral.png"
 import PfAmchem from "@assets/images/sc_amc.jpg"
 import PfDrythane from "@assets/images/sc_dry.jpg"
 import PfPerception from "@assets/images/sc_perception.png"
@@ -19,9 +21,9 @@ export const SiteData = {
 	site_keywords: ['Next.js', 'Netlify', 'React'],
 	posts_per_page: 5,
 	socials: [
-		{ title: 'Github', url: 'https://github.com/aryan-mann', icon: FaGithub },
-		{ title: 'Spotify', url: 'https://open.spotify.com/user/aryan_mann', icon: FaSpotify },
-		{ title: 'Email', url: 'mailto:aryan.21.mann@gmail.com', icon: FaMailBulk }
+		{ title: 'Github', url: 'https://github.com/aryan-mann', icon: IconGithub },
+		{ title: 'Spotify', url: 'https://open.spotify.com/user/aryan_mann', icon: IconMusic },
+		{ title: 'Email', url: 'mailto:aryan.21.mann@gmail.com', icon: IconEmail }
 	] as const,
 	menuLinks: [
 		{ label: 'home', url: '/' },
@@ -29,6 +31,11 @@ export const SiteData = {
 		{ label: 'résumé (outdated)', url: '/resumes/AryanMann_Resume_Apr28.pdf', external: true },
 	] as const,
 	portfolio: [
+		{
+			website: 'chat.cohere.com',
+			image: PfCoral,
+			description: `Cohere's main experimental chat interface that included quirky features like next turn suggestions (thanks aryan), some bugs (thanks aryan), and lots of positive design (thanks team!)`
+		},
 		{
 			website: 'ourspac.es',
 			image: PfOurSpaces,

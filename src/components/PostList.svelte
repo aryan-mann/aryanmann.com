@@ -10,7 +10,7 @@
 {/if}
 {#each posts as post}
 	<a
-		class="group hover:bg-primary-100 bg-primary-100 hover:not-italic justify-between px-8 py-4 no-underline hover:shadow-lg border-primary-300 border-[1px] hover:border-primary-700"
+		class="group rounded hover:bg-primary-100 bg-primary-100 hover:not-italic justify-between px-8 py-4 no-underline hover:shadow-lg border-primary-300 border-[1px] hover:border-primary-700"
 		href={post.url}
 	>
 		<div class="flex justify-between">

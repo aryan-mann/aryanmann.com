@@ -1,6 +1,5 @@
 <script>
   import { SiteData } from '../site';
-  import GiHamburgerMenu from 'svelte-icons/gi/GiHamburgerMenu.svelte'
   import LogoBlack from "@assets/images/am_logo_black.png"
 
   let isMenuOpen = true;
