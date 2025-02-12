@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { alphabetize, convertToDate, romanize } from '../utils';
 	import type { PostItem } from '../types/global';
+	import { goto } from '$app/navigation';
 
 	interface Props {
 		posts?: Array<PostItem>;
@@ -12,10 +13,10 @@
 {#if posts.length <= 0}
 	<p>no posts found</p>
 {/if}
-{#each posts as post}
-	<a
+{#each posts as post, i}
+	<button
 		class="group rounded hover:bg-primary-100 bg-primary-100 hover:not-italic justify-between px-8 py-4 no-underline hover:shadow-lg border-primary-300 border-[1px] hover:border-primary-700"
-		href={post.url}
+		onclick={() => goto(post.url)} type="button"
 	>
 		<div class="flex justify-between">
 			<p class="text-xl">
@@ -40,5 +41,5 @@
 				>
 			</div>
 		{/if}
-	</a>
+	</button>
 {/each}

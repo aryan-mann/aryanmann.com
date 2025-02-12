@@ -6,6 +6,7 @@
 	import Tagline from '@components/Tagline.svelte';
 	import MeImage from "@assets/images/me1.jpg";
 	import type { PageData } from './$types';
+	import { fade } from 'svelte/transition';
 	
 	let portfolioItem = $state(SiteData.portfolio[0]);
 	interface Props {
@@ -37,7 +38,7 @@
 <!-- Work Portfolio Slider -->
 <Slider items={SiteData.portfolio} bind:currentItem={portfolioItem}>
 	{#if portfolioItem}
-		<div class="flex flex-col w-full">
+		<div class="flex flex-col w-full" transition:fade={{duration: 2000}}>
 			<a
 				class="text-xl no-underline font-bold hover:text-primary-700 text-center w-full animate-pulse"
 				href={`https://${portfolioItem.website}`}
@@ -97,8 +98,8 @@
 <h3 class="py-4 mt-8 text-xl">hot off the press</h3>
 <div class="flex flex-col gap-4 flex-wrap px-8 text-xl">
 	{#each data.recentPosts as recentPost}
-	<div class='flex gap-4 items-center'>
-			<span class="mr-2">📝✍🏽</span><a class="text-xl no-underline hover:bg-slate-50 px-2" href={recentPost.url}>{recentPost.title}</a>
+	<div class="flex gap-4 items-center select-none">
+			<p class="mr-2 -rotate-12">✍🏽</p><a class="text-xl no-underline hover:bg-slate-50 px-2" href={recentPost.url}>{recentPost.title}</a>
 			<p class='text-sm whitespace-nowrap'>on {recentPost.date.toLocaleDateString('en-us', { year: 'numeric', month: 'long', day: 'numeric'})}</p>
 	</div>
 	{/each}

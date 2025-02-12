@@ -19,7 +19,7 @@
 </script>
 
 <details class="mt-4">
-    <summary class="text-xl cursor-pointer mb-2 underline">💬 Open Comments 💬</summary>
+    <summary class="text-xl cursor-pointer mb-2 underline animate-pulse">💬 Open Comments 💬</summary>
     <div class="border-[1px] p-4 rounded shadow bg-slate-100" id="disqus_thread"></div>
     <noscript>Comments require JavaScript to function.</noscript>
 </details>

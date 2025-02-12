@@ -1,6 +1,4 @@
 <script lang="ts">
-	import { run } from 'svelte/legacy';
-
 	import IconArrowLeft from 'lucide-svelte/icons/arrow-left-to-line';
 	import IconArrowRight from 'lucide-svelte/icons/arrow-right-to-line';
 
@@ -21,7 +19,7 @@
 	}: Props = $props();
 
 	let currentItemIndex = $state(0);
-	run(() => {
+	$effect(() => {
 		currentItem = items[((currentItemIndex % items.length) + items.length) % items.length];
 	});
 
@@ -37,8 +35,7 @@
 	<div class="flex flex-col items-center justify-center">
 		{@render children?.()}
 		<div class="w-full flex justify-evenly mt-4">
-			<!-- svelte-ignore a11y_click_events_have_key_events -->
-			<div onclick={previousSlide} role="button">
+			<button onclick={previousSlide}>
 				{#if prev}{@render prev()}{:else}
 					<div
 						class="max-w-[4em] active:text-primary-500 transform-gpu duration-150 cursor-pointer text-secondary-700 hover:text-secondary-400"
@@ -46,9 +43,8 @@
 						<IconArrowLeft /> 
 					</div>
 				{/if}
-			</div>
-			<!-- svelte-ignore a11y_click_events_have_key_events -->
-			<div onclick={nextSlide} role="button">
+			</button>
+			<button onclick={nextSlide}>
 				{#if next}{@render next()}{:else}
 					<div
 						class="max-w-[4em] active:text-primary-500 transform-gpu duration-150 cursor-pointer text-secondary-700 hover:text-secondary-400"
@@ -56,7 +52,7 @@
 						<IconArrowRight />
 					</div>
 				{/if}
-			</div>
+			</button>
 		</div>
 	</div>
 {/if}

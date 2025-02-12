@@ -1,6 +1,6 @@
-import mdsvexConfig from './mdsvex.config.js';
+import { defineMDSveXConfig } from 'mdsvex';
 import vercel from '@sveltejs/adapter-vercel';
-import preprocess from 'svelte-preprocess';
+import { sveltePreprocess } from 'svelte-preprocess';
 import { mdsvex } from 'mdsvex';
 import path from 'path';
 
@@ -23,12 +23,23 @@ const config = {
 		}
 	},
 	preprocess: [
-		preprocess({
+		sveltePreprocess({
 			postcss: {},
 			sourceMap: true,
-			typescript: true
+			typescript: true,
+			scss: true,
 		}),
-		mdsvex(mdsvexConfig)
+		mdsvex(defineMDSveXConfig({
+			extensions: ['.mdx'],
+			layout: {
+				_: './src/routes/posts/post-layout.svelte'
+			},
+			smartypants: {
+				dashes: 'oldschool'
+			},
+			remarkPlugins: [],
+			rehypePlugins: []
+		}))
 	]
 };
 

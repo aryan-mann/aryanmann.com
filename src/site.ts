@@ -32,16 +32,16 @@ export const SiteData = {
 	] as const,
 	portfolio: [
 		{
-			website: 'chat.cohere.com',
+			website: 'dashboard.cohere.com/playground/chat',
 			image: PfCoral,
-			description: `Cohere's main experimental chat interface that included quirky features like next turn suggestions (thanks aryan), some bugs (thanks aryan), and lots of positive design (thanks team!)`
+			description: `Added ML features to Cohere's chat interfaces + worked on building the synthetic data repo + improving the models via synthetic data.`
 		},
-		{
-			website: 'ourspac.es',
-			image: PfOurSpaces,
-			description:
-				'A resource for spaces available to the public around San Francisco. These spaces are vetted and selected to be as free as possible, as nice as possible, and open to the public. We have parks, POPOs, libraries, and more coming as we discover them!'
-		},
+		// {
+		// 	website: 'ourspac.es',
+		// 	image: PfOurSpaces,
+		// 	description:
+		// 		'A resource for spaces available to the public around San Francisco. These spaces are vetted and selected to be as free as possible, as nice as possible, and open to the public. We have parks, POPOs, libraries, and more coming as we discover them!'
+		// },
 		{
 			website: 'amchemproducts.com',
 			image: PfAmchem,

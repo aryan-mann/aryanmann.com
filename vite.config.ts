@@ -1,4 +1,4 @@
-import { svelte } from '@sveltejs/vite-plugin-svelte';
+import { sveltekit } from '@sveltejs/kit/vite';
 import { imagetools } from 'vite-imagetools'
 
 /** @type {import('vite').UserConfig} */
@@ -12,7 +12,7 @@ const config = {
 				return new URLSearchParams({ format: 'webp' })
 			}
 		}),
-		svelte({}),
+		sveltekit({}),
 	]
 };
 

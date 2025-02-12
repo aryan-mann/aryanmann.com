@@ -84,6 +84,9 @@ export async function getFilteredPosts({
 			keepPost = keepPost && false;
 		}
 
+		// Do not keep ones without required metadata
+		keepPost = keepPost && (post.title)
+
 		// 2. Do not keep posts not in the series
 		if (searchParams.has('series')) {
 			const series = searchParams.get('series');
@@ -108,13 +111,14 @@ export async function getFilteredPosts({
 			.replace(/\+page$/, '')}`;
 		const resolvedModule: any = await postData();
 		const postMeta = resolvedModule.metadata;
+		let postDate = postMeta?.date || postMeta?.lastUpdated;
 		const post = {
 			url: urlPath,
 			...postMeta,
 			tags: postMeta?.tags || [],
-			date: new Date(postMeta.date)
+			date: postDate ? new Date(postDate) : new Date()
 		};
-
+		
 		if (filterFunction === undefined || additiveFilter) {
 			if (filterer(post)) {
 				posts.push(post);
@@ -126,6 +130,8 @@ export async function getFilteredPosts({
 
 	// Sort by date
 	posts.sort((p1, p2) => p2.date.getTime() - p1.date.getTime());
+
+	console.log(posts)
 
 	return posts;
 }
