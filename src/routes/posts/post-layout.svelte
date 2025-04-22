@@ -1,17 +1,22 @@
-<script>
+<script lang="ts">
 	import Disqus from '@components/Disqus.svelte';
 	import Meta from '@components/Meta.svelte';
 	import { alphabetize, convertToDate } from '@utils';
+	import type { PostMeta } from '@types';
+	import type { Snippet } from 'svelte';
 
-	export let title;
-	export let date;
-	export let tags;
-	export let lastUpdated;
-	export let series;
-	export let part;
+	let {
+		title,
+		date,
+		tags,
+		lastUpdated,
+		series,
+		part,
+		children
+	}: PostMeta & { children?: Snippet } = $props();
 </script>
 
-<Meta {title} {date} />
+<Meta title={title} date={date} />
 
 <div class="flex flex-col mt-2 md:mt-8">
 	<div class="flex flex-col items-start">
@@ -46,7 +51,7 @@
 	<hr class="mt-4 mb-4" />
 </div>
 <div class="typo flex flex-col">
-	<slot />
+	{@render children?.()}
 </div>
 <Disqus />
 <div class="mt-8 text-center text-gray-600">

@@ -2,7 +2,7 @@
 	import { SiteData } from '../site.ts';
 	import LogoBlack from "@assets/images/am_logo_black.png"
 
-	import { page } from '$app/stores';
+	import { page } from '$app/state';
 </script>
 
 <div class="flex flex-col items-center justify-center pb-12">
@@ -14,7 +14,7 @@
 	/>
 	<div class="flex flex-wrap pt-8 md:pt-12 gap-4 justify-center">
 		{#each SiteData.menuLinks as menuLink}
-			{@const isActive = $page.route.id === menuLink.url}
+			{@const isActive = page.route.id === menuLink.url}
 			<a class:selected={isActive} class:external-link={!!menuLink.external} class="thick-link" href={menuLink.url}>{menuLink.label}</a>
 		{/each}
 	</div>
@@ -28,3 +28,4 @@
 		cursor: context-menu;
 	}
 </style>
+

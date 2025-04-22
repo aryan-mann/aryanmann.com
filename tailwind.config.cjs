@@ -2,6 +2,9 @@ module.exports = {
 	content: ['./src/**/*.{html,js,svelte,ts,mdx}'],
 	theme: {
 		extend: {
+			fontFamily: {
+				viet: ['National Park', 'sans-serif']
+			},
 			colors: {
 				primary: {
 					DEFAULT: '#CDAC6A',

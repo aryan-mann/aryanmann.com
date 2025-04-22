@@ -13,7 +13,7 @@
       >
       {#if social.icon}
         <div class="hover:bg-primary-400 w-10 px-2 py-2 duration-500 rounded">
-          <svelte:component this={social.icon} />
+          <social.icon />
         </div>
       {:else}
         {social.title}

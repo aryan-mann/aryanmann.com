@@ -1,11 +1,30 @@
 import type { PostItem } from './types/global';
 
-export function convertToDate(dateLike: string | number | Date): string {
-	return new Date(dateLike).toLocaleDateString('en-US', {
-		month: 'long',
+export function convertToDate(dateLike: string | number | Date, today?: Date): string {
+	const date = dateLike instanceof Date ? dateLike : new Date(dateLike)
+	const dateString = date.toLocaleDateString('en-US', {
+		month: 'short',
 		day: '2-digit',
 		year: 'numeric'
 	});
+
+	// calculate days since today
+	if (today) {
+		const diff = today.getTime() - date.getTime();
+		const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+
+		if (days === 0) {
+			return 'Today';
+		} else if (days === 1) {
+			return 'Yesterday';
+		} else if (days < 0) {
+			return `In the future?`;
+		}
+
+		return `${days} day${days === 1 ? '' : 's'} ago`;
+	}
+
+	return dateString;
 }
 
 export function romanize(num: number): string {
@@ -70,13 +89,15 @@ export async function getFilteredPosts({
 	additiveFilter
 }: GetFilteredPostsT): Promise<Array<PostItem>> {
 	const mdxSearchLocation = './routes/posts/';
+	const svelteSearchLocation = './routes/posts/';
 	const mdxModules = import.meta.glob('./routes/posts/**/*.mdx');
+	const svelteModules = import.meta.glob('./routes/posts/*/**/+page.svelte');
 
 	const searchParams: URLSearchParams = params.url.searchParams;
 	const routeId: string = `/posts`;
 
 	let posts: Array<PostItem> = [];
-	const filterer = (post) => {
+	const filterer = (post: PostItem) => {
 		let keepPost = true;
 
 		// 1. Do not keep drafts
@@ -108,12 +129,35 @@ export async function getFilteredPosts({
 			.replace(/\+page$/, '')}`;
 		const resolvedModule: any = await postData();
 		const postMeta = resolvedModule.metadata;
-		const post = {
+		const post: PostItem = {
 			url: urlPath,
 			...postMeta,
-			tags: postMeta?.tags || [],
 			date: new Date(postMeta.date)
 		};
+
+		if (filterFunction === undefined || additiveFilter) {
+			if (filterer(post)) {
+				posts.push(post);
+			}
+		} else if (filterFunction(post)) {
+			posts.push(post);
+		}
+	}
+
+	for (let [postPath, postData] of Object.entries(svelteModules)) {
+		const comp = await postData() as object;
+		if (!('PostData' in comp) || typeof comp.PostData !== 'object') {
+			console.warn(`PostData not found in ${postPath}. Post will be skipped.`)
+			continue;
+		}
+
+		const post: PostItem = {
+			url: `${routeId}/${postPath
+				.substring(svelteSearchLocation.length)
+				.split('.')[0]
+				.replace(/\+page$/, '')}`,
+			...comp.PostData,
+		}
 
 		if (filterFunction === undefined || additiveFilter) {
 			if (filterer(post)) {

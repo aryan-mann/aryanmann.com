@@ -1,17 +1,26 @@
 <script lang="ts">
 	import { alphabetize, convertToDate, romanize } from '../utils';
 	import type { PostItem } from '../types/global';
+	import { goto } from '$app/navigation';
 
-	export let posts: Array<PostItem> = [];
+	interface Props {
+		posts?: Array<PostItem>;
+	}
+
+	let { posts = [] }: Props = $props();
+
+	const today = new Date();
 </script>
 
 {#if posts.length <= 0}
 	<p>no posts found</p>
 {/if}
 {#each posts as post}
-	<a
+	<button
 		class="group hover:bg-primary-100 bg-primary-100 hover:not-italic justify-between px-8 py-4 no-underline hover:shadow-lg border-primary-300 border-[1px] hover:border-primary-700"
-		href={post.url}
+		onclick={() => {
+			goto(post.url);
+		}}
 	>
 		<div class="flex justify-between">
 			<p class="text-xl">
@@ -20,8 +29,11 @@
 				>
 				{post.title}
 			</p>
-			<p class="ml-2">{convertToDate(post.date)}</p>
+			<p class="ml-2">{convertToDate(post.date, today)}</p>
 		</div>
+		{#if post.description}
+			<p class="text-sm text-left mt-2 px-1">{post.description}</p>
+		{/if}
 		<div class="max-w-24 max-h-28 flex mt-2 space-x-3">
 			{#each post.tags as tag}
 				<a class="text-sm no-underline hover:bg-secondary-50 px-1" href={`/tags/${tag}`}>#{tag}</a>
@@ -36,5 +48,5 @@
 				>
 			</div>
 		{/if}
-	</a>
+	</button>
 {/each}

@@ -1,6 +1,11 @@
-<script>
+<script lang="ts">
 	import MobileNavigation from './MobileNavigation.svelte';
 	import Navigation from './Navigation.svelte';
+	interface Props {
+		children?: import('svelte').Snippet;
+	}
+
+	let { children }: Props = $props();
 </script>
 
 <svelte:head>
@@ -16,7 +21,7 @@
 		<Navigation />
 		<!-- <MobileNavigation /> -->
 		<div class="w-full max-w-[900px] bg-white bg-opacity-80 md:px-4">
-			<slot />
+			{@render children?.()}
 		</div>
 	</main>
 </div>

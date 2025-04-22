@@ -1,11 +1,22 @@
 <script lang="ts">
-  import { page } from '$app/stores';
+  import { page } from '$app/state';
   import { SiteData } from "../site";
 
-  export let title: string|null = null;
-  export let description: string|null = null;
-  export let keywords: Array<string> = [];
-  export let type: "article" = "article";
+  interface Props {
+    title?: string|null;
+    description?: string|null;
+    keywords?: Array<string>;
+    type?: "article";
+    date?: Date;
+  }
+
+  let {
+    title = null,
+    description = null,
+    keywords = [],
+    type = "article",
+    date
+  }: Props = $props();
 </script>
 
 <svelte:head>
@@ -22,8 +33,8 @@
     <meta name="keywords" content={keywords.join(",")} />
   {/if}
   <meta name="author" content={SiteData.author} />
-  <link rel="canonical" href={$page.url.toString()} />
-  <meta property="og:url" content={$page.url.toString()} />
+  <link rel="canonical" href={page.url.toString()} />
+  <meta property="og:url" content={page.url.toString()} />
   <meta property="og:type" content={type} />
   <!-- As JsonLD -->
   <!-- <script>

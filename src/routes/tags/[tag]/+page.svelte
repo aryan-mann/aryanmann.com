@@ -1,8 +1,12 @@
 <script lang="ts">
 	import Meta from '@components/Meta.svelte';
 	import PostList from '@components/PostList.svelte';
-	/** @type {import('./$types').PageData} */
-	export let data;
+	
+	interface Props {
+		data: import('./$types').PageData;
+	}
+
+	let { data }: Props = $props();
 </script>
 
 <Meta title={`#${data.tag}`} />

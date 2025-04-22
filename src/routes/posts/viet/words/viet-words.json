@@ -1,0 +1,3322 @@
+[
+    {
+        "word": "đảo",
+        "meanings": [
+            "island"
+        ],
+        "sentences": [
+            {
+                "en": "Phú Quốc is a beautiful island in Vietnam.",
+                "vn": "Phú Quốc là một hòn đảo đẹp ở Việt Nam.",
+                "meanings": {
+                    "đẹp": "beautiful",
+                    "hòn": "classifier for small or rounded objects (often used for islands)",
+                    "đảo": "island",
+                    "Việt Nam": "Vietnam"
+                }
+            },
+            {
+                "en": "The island is surrounded by clear blue water.",
+                "vn": "Hòn đảo được bao quanh bởi làn nước xanh trong.",
+                "meanings": {
+                    "hòn": "classifier for small or rounded objects (often used for islands)",
+                    "đảo": "island",
+                    "được": "is/are (used in passive voice)",
+                    "bao quanh": "surrounded",
+                    "bởi": "by",
+                    "làn": "classifier for something thin like light or water",
+                    "nước": "water",
+                    "xanh": "blue/green (color depending on context)",
+                    "trong": "clear (when used with water or air)"
+                }
+            }
+        ]
+    },
+    {
+        "word": "xin chào",
+        "meanings": [
+            "Hello"
+        ],
+        "sentences": [
+            {
+                "en": "Hello, how are you?",
+                "vn": "Xin chào, bạn có khỏe không?",
+                "meanings": {
+                    "Xin chào": "Hello",
+                    "bạn": "you (informal/peer)",
+                    "có": "(question particle / have)",
+                    "khỏe": "healthy/well",
+                    "không": "not / (end-sentence question particle)"
+                }
+            }
+        ]
+    },
+    {
+        "word": "cảm ơn",
+        "meanings": [
+            "Thank you"
+        ],
+        "sentences": [
+            {
+                "en": "Thank you for your help.",
+                "vn": "Cảm ơn sự giúp đỡ của bạn.",
+                "meanings": {
+                    "Cảm ơn": "Thank you",
+                    "sự giúp đỡ": "help (noun)",
+                    "của": "of",
+                    "bạn": "you (informal/peer)"
+                }
+            }
+        ]
+    },
+    {
+        "word": "nước",
+        "meanings": [
+            "water",
+            "country"
+        ],
+        "sentences": [
+            {
+                "en": "I want to drink water.",
+                "vn": "Tôi muốn uống nước.",
+                "meanings": {
+                    "Tôi": "I",
+                    "muốn": "want",
+                    "uống": "drink",
+                    "nước": "water"
+                }
+            },
+            {
+                "en": "Vietnam is my country.",
+                "vn": "Việt Nam là nước của tôi.",
+                "meanings": {
+                    "Việt Nam": "Vietnam",
+                    "là": "is",
+                    "nước": "country",
+                    "của": "of",
+                    "tôi": "my/I"
+                }
+            }
+        ]
+    },
+    {
+        "word": "ăn",
+        "meanings": [
+            "eat"
+        ],
+        "sentences": [
+            {
+                "en": "What do you want to eat?",
+                "vn": "Bạn muốn ăn gì?",
+                "meanings": {
+                    "Bạn": "You (informal/peer)",
+                    "muốn": "want",
+                    "ăn": "eat",
+                    "gì": "what"
+                }
+            },
+            {
+                "en": "Let's eat pho together.",
+                "vn": "Chúng ta hãy ăn phở cùng nhau.",
+                "meanings": {
+                    "Chúng ta": "We (inclusive)",
+                    "hãy": "let's / shall (suggestion)",
+                    "ăn": "eat",
+                    "phở": "pho (Vietnamese noodle soup)",
+                    "cùng nhau": "together"
+                }
+            }
+        ]
+    },
+    {
+        "word": "nhà",
+        "meanings": [
+            "house",
+            "home"
+        ],
+        "sentences": [
+            {
+                "en": "This is my house.",
+                "vn": "Đây là nhà của tôi.",
+                "meanings": {
+                    "Đây": "This",
+                    "là": "is",
+                    "nhà": "house",
+                    "của": "of",
+                    "tôi": "my/I"
+                }
+            },
+            {
+                "en": "I am going home now.",
+                "vn": "Bây giờ tôi về nhà.",
+                "meanings": {
+                    "Bây giờ": "Now",
+                    "tôi": "I",
+                    "về": "return",
+                    "nhà": "home"
+                }
+            }
+        ]
+    },
+    {
+        "word": "đi",
+        "meanings": [
+            "go"
+        ],
+        "sentences": [
+            {
+                "en": "Where are you going?",
+                "vn": "Bạn đang đi đâu đấy?",
+                "meanings": {
+                    "Bạn": "You (informal/peer)",
+                    "đang": "(present continuous marker)",
+                    "đi": "go",
+                    "đâu": "where",
+                    "đấy": "(sentence-final particle, adds familiarity/inquisitiveness)"
+                }
+            },
+            {
+                "en": "Let's go to the market.",
+                "vn": "Chúng ta đi chợ đi.",
+                "meanings": {
+                    "Chúng ta": "We (inclusive)",
+                    "đi": "go",
+                    "chợ": "market",
+                    "đi": "(sentence-final particle, urging/suggestion)"
+                }
+            }
+        ]
+    },
+    {
+        "word": "người",
+        "meanings": [
+            "person",
+            "people"
+        ],
+        "sentences": [
+            {
+                "en": "There are many people here.",
+                "vn": "Ở đây có nhiều người.",
+                "meanings": {
+                    "Ở đây": "Here",
+                    "có": "have/there are",
+                    "nhiều": "many",
+                    "người": "people"
+                }
+            },
+            {
+                "en": "He is a good person.",
+                "vn": "Anh ấy là một người tốt.",
+                "meanings": {
+                    "Anh ấy": "He",
+                    "là": "is",
+                    "một": "a/one",
+                    "người": "person",
+                    "tốt": "good"
+                }
+            }
+        ]
+    },
+    {
+        "word": "nói",
+        "meanings": [
+            "speak",
+            "say",
+            "talk"
+        ],
+        "sentences": [
+            {
+                "en": "Can you speak Vietnamese?",
+                "vn": "Bạn có thể nói tiếng Việt không?",
+                "meanings": {
+                    "Bạn": "You (informal/peer)",
+                    "có thể": "can/be able to",
+                    "nói": "speak",
+                    "tiếng Việt": "Vietnamese language",
+                    "không": "(end-sentence question particle)"
+                }
+            },
+            {
+                "en": "What did she say?",
+                "vn": "Cô ấy đã nói gì?",
+                "meanings": {
+                    "Cô ấy": "She",
+                    "đã": "(past tense marker)",
+                    "nói": "say",
+                    "gì": "what"
+                }
+            }
+        ]
+    },
+    {
+        "word": "làm",
+        "meanings": [
+            "do",
+            "make",
+            "work"
+        ],
+        "sentences": [
+            {
+                "en": "What are you doing?",
+                "vn": "Bạn đang làm gì?",
+                "meanings": {
+                    "Bạn": "You (informal/peer)",
+                    "đang": "(present continuous marker)",
+                    "làm": "do",
+                    "gì": "what"
+                }
+            },
+            {
+                "en": "I work at a company.",
+                "vn": "Tôi làm việc tại một công ty.",
+                "meanings": {
+                    "Tôi": "I",
+                    "làm việc": "work",
+                    "tại": "at",
+                    "một": "a/one",
+                    "công ty": "company"
+                }
+            }
+        ]
+    },
+    {
+        "word": "thích",
+        "meanings": [
+            "like"
+        ],
+        "sentences": [
+            {
+                "en": "I like Vietnamese food.",
+                "vn": "Tôi thích đồ ăn Việt Nam.",
+                "meanings": {
+                    "Tôi": "I",
+                    "thích": "like",
+                    "đồ ăn": "food",
+                    "Việt Nam": "Vietnam/Vietnamese"
+                }
+            },
+            {
+                "en": "Do you like this movie?",
+                "vn": "Bạn có thích bộ phim này không?",
+                "meanings": {
+                    "Bạn": "You (informal/peer)",
+                    "có": "(question particle)",
+                    "thích": "like",
+                    "bộ phim": "movie",
+                    "này": "this",
+                    "không": "(end-sentence question particle)"
+                }
+            }
+        ]
+    },
+    {
+        "word": "ngày",
+        "meanings": [
+            "day"
+        ],
+        "sentences": [
+            {
+                "en": "Today is a beautiful day.",
+                "vn": "Hôm nay là một ngày đẹp trời.",
+                "meanings": {
+                    "Hôm nay": "Today",
+                    "là": "is",
+                    "một": "a/one",
+                    "ngày": "day",
+                    "đẹp trời": "beautiful weather / beautiful sky"
+                }
+            },
+            {
+                "en": "What day is it today?",
+                "vn": "Hôm nay là thứ mấy?",
+                "meanings": {
+                    "Hôm nay": "Today",
+                    "là": "is",
+                    "thứ mấy": "which day of the week"
+                }
+            }
+        ]
+    },
+    {
+        "word": "năm",
+        "meanings": [
+            "year",
+            "five"
+        ],
+        "sentences": [
+            {
+                "en": "This year is 2025.",
+                "vn": "Năm nay là năm 2025.",
+                "meanings": {
+                    "Năm nay": "This year",
+                    "là": "is",
+                    "năm": "year"
+                }
+            },
+            {
+                "en": "I have five books.",
+                "vn": "Tôi có năm quyển sách.",
+                "meanings": {
+                    "Tôi": "I",
+                    "có": "have",
+                    "năm": "five",
+                    "quyển sách": "books (quyển is a classifier for books)"
+                }
+            }
+        ]
+    },
+    {
+        "word": "đẹp",
+        "meanings": [
+            "beautiful",
+            "pretty"
+        ],
+        "sentences": [
+            {
+                "en": "She is very beautiful.",
+                "vn": "Cô ấy rất đẹp.",
+                "meanings": {
+                    "Cô ấy": "She",
+                    "rất": "very",
+                    "đẹp": "beautiful"
+                }
+            },
+            {
+                "en": "The scenery here is beautiful.",
+                "vn": "Phong cảnh ở đây thật đẹp.",
+                "meanings": {
+                    "Phong cảnh": "Scenery",
+                    "ở đây": "here",
+                    "thật": "really/truly",
+                    "đẹp": "beautiful"
+                }
+            }
+        ]
+    },
+    {
+        "word": "học",
+        "meanings": [
+            "learn",
+            "study"
+        ],
+        "sentences": [
+            {
+                "en": "I am learning Vietnamese.",
+                "vn": "Tôi đang học tiếng Việt.",
+                "meanings": {
+                    "Tôi": "I",
+                    "đang": "(present continuous marker)",
+                    "học": "learn/study",
+                    "tiếng Việt": "Vietnamese language"
+                }
+            },
+            {
+                "en": "Where do you study?",
+                "vn": "Bạn học ở đâu?",
+                "meanings": {
+                    "Bạn": "You (informal/peer)",
+                    "học": "study",
+                    "ở đâu": "where"
+                }
+            }
+        ]
+    },
+    {
+        "word": "tiền",
+        "meanings": [
+            "money"
+        ],
+        "sentences": [
+            {
+                "en": "How much money is this?",
+                "vn": "Cái này bao nhiêu tiền?",
+                "meanings": {
+                    "Cái này": "This one",
+                    "bao nhiêu": "how much/how many",
+                    "tiền": "money"
+                }
+            },
+            {
+                "en": "I don't have enough money.",
+                "vn": "Tôi không có đủ tiền.",
+                "meanings": {
+                    "Tôi": "I",
+                    "không có": "don't have",
+                    "đủ": "enough",
+                    "tiền": "money"
+                }
+            }
+        ]
+    },
+    {
+        "word": "sách",
+        "meanings": [
+            "book"
+        ],
+        "sentences": [
+            {
+                "en": "I like reading books.",
+                "vn": "Tôi thích đọc sách.",
+                "meanings": {
+                    "Tôi": "I",
+                    "thích": "like",
+                    "đọc": "read",
+                    "sách": "book(s)"
+                }
+            },
+            {
+                "en": "This book is very interesting.",
+                "vn": "Quyển sách này rất thú vị.",
+                "meanings": {
+                    "Quyển sách": "Book (quyển is classifier)",
+                    "này": "this",
+                    "rất": "very",
+                    "thú vị": "interesting"
+                }
+            }
+        ]
+    },
+    {
+        "word": "viết",
+        "meanings": [
+            "write"
+        ],
+        "sentences": [
+            {
+                "en": "Please write your name here.",
+                "vn": "Xin vui lòng viết tên của bạn vào đây.",
+                "meanings": {
+                    "Xin vui lòng": "Please (polite)",
+                    "viết": "write",
+                    "tên": "name",
+                    "của bạn": "your",
+                    "vào đây": "here / in here"
+                }
+            },
+            {
+                "en": "I am writing a letter.",
+                "vn": "Tôi đang viết một lá thư.",
+                "meanings": {
+                    "Tôi": "I",
+                    "đang": "(present continuous marker)",
+                    "viết": "write",
+                    "một": "a/one",
+                    "lá thư": "letter (lá is classifier)"
+                }
+            }
+        ]
+    },
+    {
+        "word": "xem",
+        "meanings": [
+            "watch",
+            "see",
+            "look at"
+        ],
+        "sentences": [
+            {
+                "en": "I want to watch a movie.",
+                "vn": "Tôi muốn xem phim.",
+                "meanings": {
+                    "Tôi": "I",
+                    "muốn": "want",
+                    "xem": "watch",
+                    "phim": "movie"
+                }
+            },
+            {
+                "en": "Look at this picture!",
+                "vn": "Xem bức tranh này này!",
+                "meanings": {
+                    "Xem": "Look at",
+                    "bức tranh": "picture (bức is classifier)",
+                    "này": "this",
+                    "này": "(sentence final particle for attention)"
+                }
+            }
+        ]
+    },
+    {
+        "word": "mua",
+        "meanings": [
+            "buy"
+        ],
+        "sentences": [
+            {
+                "en": "I need to buy some food.",
+                "vn": "Tôi cần mua một ít đồ ăn.",
+                "meanings": {
+                    "Tôi": "I",
+                    "cần": "need",
+                    "mua": "buy",
+                    "một ít": "some / a little",
+                    "đồ ăn": "food"
+                }
+            },
+            {
+                "en": "Where did you buy this shirt?",
+                "vn": "Bạn mua cái áo này ở đâu?",
+                "meanings": {
+                    "Bạn": "You (informal/peer)",
+                    "mua": "buy",
+                    "cái áo": "shirt (cái is classifier)",
+                    "này": "this",
+                    "ở đâu": "where"
+                }
+            }
+        ]
+    },
+    {
+        "word": "bạn",
+        "meanings": [
+            "friend",
+            "you (informal/peer)"
+        ],
+        "sentences": [
+            {
+                "en": "She is my best friend.",
+                "vn": "Cô ấy là bạn thân nhất của tôi.",
+                "meanings": {
+                    "Cô ấy": "She",
+                    "là": "is",
+                    "bạn thân nhất": "best friend",
+                    "của tôi": "my"
+                }
+            },
+            {
+                "en": "How are you doing?",
+                "vn": "Bạn khỏe không?",
+                "meanings": {
+                    "Bạn": "You (informal/peer)",
+                    "khỏe": "healthy/well",
+                    "không": "(end-sentence question particle)"
+                }
+            }
+        ]
+    },
+    {
+        "word": "gia đình",
+        "meanings": [
+            "family"
+        ],
+        "sentences": [
+            {
+                "en": "I love my family.",
+                "vn": "Tôi yêu gia đình của tôi.",
+                "meanings": {
+                    "Tôi": "I",
+                    "yêu": "love",
+                    "gia đình": "family",
+                    "của tôi": "my"
+                }
+            },
+            {
+                "en": "How is your family?",
+                "vn": "Gia đình bạn thế nào?",
+                "meanings": {
+                    "Gia đình": "Family",
+                    "bạn": "your",
+                    "thế nào": "how / how is it"
+                }
+            }
+        ]
+    },
+    {
+        "word": "thời gian",
+        "meanings": [
+            "time"
+        ],
+        "sentences": [
+            {
+                "en": "What time is it?",
+                "vn": "Bây giờ là mấy giờ?",
+                "meanings": {
+                    "Bây giờ": "Now",
+                    "là": "is",
+                    "mấy giờ": "what time"
+                }
+            },
+            {
+                "en": "I don't have much time.",
+                "vn": "Tôi không có nhiều thời gian.",
+                "meanings": {
+                    "Tôi": "I",
+                    "không có": "don't have",
+                    "nhiều": "much/many",
+                    "thời gian": "time"
+                }
+            }
+        ]
+    },
+    {
+        "word": "công việc",
+        "meanings": [
+            "work",
+            "job"
+        ],
+        "sentences": [
+            {
+                "en": "How is your work?",
+                "vn": "Công việc của bạn thế nào?",
+                "meanings": {
+                    "Công việc": "Work/job",
+                    "của bạn": "your",
+                    "thế nào": "how / how is it"
+                }
+            },
+            {
+                "en": "I have a lot of work to do.",
+                "vn": "Tôi có nhiều công việc phải làm.",
+                "meanings": {
+                    "Tôi": "I",
+                    "có": "have",
+                    "nhiều": "a lot of",
+                    "công việc": "work",
+                    "phải làm": "must do / have to do"
+                }
+            }
+        ]
+    },
+    {
+        "word": "trời",
+        "meanings": [
+            "sky",
+            "weather",
+            "heaven"
+        ],
+        "sentences": [
+            {
+                "en": "The sky is blue today.",
+                "vn": "Hôm nay trời xanh.",
+                "meanings": {
+                    "Hôm nay": "Today",
+                    "trời": "sky/weather",
+                    "xanh": "blue"
+                }
+            },
+            {
+                "en": "It's raining.",
+                "vn": "Trời đang mưa.",
+                "meanings": {
+                    "Trời": "Weather/sky (used idiomatically for weather)",
+                    "đang": "(present continuous marker)",
+                    "mưa": "rain"
+                }
+            }
+        ]
+    },
+    {
+        "word": "mưa",
+        "meanings": [
+            "rain"
+        ],
+        "sentences": [
+            {
+                "en": "I like the sound of rain.",
+                "vn": "Tôi thích tiếng mưa.",
+                "meanings": {
+                    "Tôi": "I",
+                    "thích": "like",
+                    "tiếng": "sound",
+                    "mưa": "rain"
+                }
+            },
+            {
+                "en": "Bring an umbrella, it might rain.",
+                "vn": "Mang theo ô nhé, trời có thể mưa.",
+                "meanings": {
+                    "Mang theo": "Bring (with you)",
+                    "ô": "umbrella",
+                    "nhé": "(sentence final particle, gentle suggestion/reminder)",
+                    "trời": "weather/sky",
+                    "có thể": "might/can",
+                    "mưa": "rain"
+                }
+            }
+        ]
+    },
+    {
+        "word": "nắng",
+        "meanings": [
+            "sunshine",
+            "sunny"
+        ],
+        "sentences": [
+            {
+                "en": "It's very sunny today.",
+                "vn": "Hôm nay trời rất nắng.",
+                "meanings": {
+                    "Hôm nay": "Today",
+                    "trời": "weather/sky",
+                    "rất": "very",
+                    "nắng": "sunny"
+                }
+            },
+            {
+                "en": "Let's go out and enjoy the sunshine.",
+                "vn": "Chúng ta ra ngoài tận hưởng ánh nắng đi.",
+                "meanings": {
+                    "Chúng ta": "We (inclusive)",
+                    "ra ngoài": "go out",
+                    "tận hưởng": "enjoy",
+                    "ánh nắng": "sunshine",
+                    "đi": "(sentence final particle, urging/suggestion)"
+                }
+            }
+        ]
+    },
+    {
+        "word": "đường",
+        "meanings": [
+            "road",
+            "street",
+            "sugar"
+        ],
+        "sentences": [
+            {
+                "en": "Which road should I take?",
+                "vn": "Tôi nên đi đường nào?",
+                "meanings": {
+                    "Tôi": "I",
+                    "nên": "should",
+                    "đi": "go/take",
+                    "đường nào": "which road"
+                }
+            },
+            {
+                "en": "This coffee needs more sugar.",
+                "vn": "Cà phê này cần thêm đường.",
+                "meanings": {
+                    "Cà phê": "Coffee",
+                    "này": "this",
+                    "cần": "need",
+                    "thêm": "more/add",
+                    "đường": "sugar"
+                }
+            }
+        ]
+    },
+    {
+        "word": "xe",
+        "meanings": [
+            "vehicle",
+            "car",
+            "bike"
+        ],
+        "sentences": [
+            {
+                "en": "My car is blue.",
+                "vn": "Xe ô tô của tôi màu xanh.",
+                "meanings": {
+                    "Xe ô tô": "Car",
+                    "của tôi": "my",
+                    "màu xanh": "blue color"
+                }
+            },
+            {
+                "en": "I go to work by motorbike.",
+                "vn": "Tôi đi làm bằng xe máy.",
+                "meanings": {
+                    "Tôi": "I",
+                    "đi làm": "go to work",
+                    "bằng": "by/with",
+                    "xe máy": "motorbike"
+                }
+            }
+        ]
+    },
+    {
+        "word": "ngủ",
+        "meanings": [
+            "sleep"
+        ],
+        "sentences": [
+            {
+                "en": "I want to sleep.",
+                "vn": "Tôi muốn đi ngủ.",
+                "meanings": {
+                    "Tôi": "I",
+                    "muốn": "want",
+                    "đi ngủ": "go to sleep"
+                }
+            },
+            {
+                "en": "Did you sleep well last night?",
+                "vn": "Tối qua bạn ngủ ngon không?",
+                "meanings": {
+                    "Tối qua": "Last night",
+                    "bạn": "you (informal/peer)",
+                    "ngủ ngon": "sleep well",
+                    "không": "(end-sentence question particle)"
+                }
+            }
+        ]
+    },
+    {
+        "word": "dậy",
+        "meanings": [
+            "wake up",
+            "get up"
+        ],
+        "sentences": [
+            {
+                "en": "What time do you usually wake up?",
+                "vn": "Bạn thường thức dậy lúc mấy giờ?",
+                "meanings": {
+                    "Bạn": "You (informal/peer)",
+                    "thường": "usually",
+                    "thức dậy": "wake up",
+                    "lúc mấy giờ": "at what time"
+                }
+            },
+            {
+                "en": "Get up! It's late.",
+                "vn": "Dậy đi! Muộn rồi.",
+                "meanings": {
+                    "Dậy đi": "Get up! (urging)",
+                    "Muộn rồi": "It's late already."
+                }
+            }
+        ]
+    },
+    {
+        "word": "biết",
+        "meanings": [
+            "know"
+        ],
+        "sentences": [
+            {
+                "en": "Do you know his name?",
+                "vn": "Bạn có biết tên anh ấy không?",
+                "meanings": {
+                    "Bạn": "You (informal/peer)",
+                    "có biết": "know (in question form)",
+                    "tên": "name",
+                    "anh ấy": "his/him",
+                    "không": "(end-sentence question particle)"
+                }
+            },
+            {
+                "en": "I don't know the answer.",
+                "vn": "Tôi không biết câu trả lời.",
+                "meanings": {
+                    "Tôi": "I",
+                    "không biết": "don't know",
+                    "câu trả lời": "answer"
+                }
+            }
+        ]
+    },
+    {
+        "word": "hiểu",
+        "meanings": [
+            "understand"
+        ],
+        "sentences": [
+            {
+                "en": "Do you understand?",
+                "vn": "Bạn có hiểu không?",
+                "meanings": {
+                    "Bạn": "You (informal/peer)",
+                    "có hiểu": "understand (in question form)",
+                    "không": "(end-sentence question particle)"
+                }
+            },
+            {
+                "en": "I don't understand this word.",
+                "vn": "Tôi không hiểu từ này.",
+                "meanings": {
+                    "Tôi": "I",
+                    "không hiểu": "don't understand",
+                    "từ": "word",
+                    "này": "this"
+                }
+            }
+        ]
+    },
+    {
+        "word": "hỏi",
+        "meanings": [
+            "ask"
+        ],
+        "sentences": [
+            {
+                "en": "Can I ask a question?",
+                "vn": "Tôi có thể hỏi một câu được không?",
+                "meanings": {
+                    "Tôi": "I",
+                    "có thể": "can/may",
+                    "hỏi": "ask",
+                    "một câu": "a question / one sentence",
+                    "được không": "(permission asking particle)"
+                }
+            },
+            {
+                "en": "He asked me about my trip.",
+                "vn": "Anh ấy đã hỏi tôi về chuyến đi của tôi.",
+                "meanings": {
+                    "Anh ấy": "He",
+                    "đã": "(past tense marker)",
+                    "hỏi": "ask",
+                    "tôi": "me",
+                    "về": "about",
+                    "chuyến đi": "trip",
+                    "của tôi": "my"
+                }
+            }
+        ]
+    },
+    {
+        "word": "trả lời",
+        "meanings": [
+            "answer",
+            "reply"
+        ],
+        "sentences": [
+            {
+                "en": "Please answer my question.",
+                "vn": "Xin vui lòng trả lời câu hỏi của tôi.",
+                "meanings": {
+                    "Xin vui lòng": "Please (polite)",
+                    "trả lời": "answer",
+                    "câu hỏi": "question",
+                    "của tôi": "my"
+                }
+            },
+            {
+                "en": "I haven't received a reply yet.",
+                "vn": "Tôi vẫn chưa nhận được câu trả lời.",
+                "meanings": {
+                    "Tôi": "I",
+                    "vẫn chưa": "still not yet",
+                    "nhận được": "received",
+                    "câu trả lời": "reply/answer"
+                }
+            }
+        ]
+    },
+    {
+        "word": "mở",
+        "meanings": [
+            "open"
+        ],
+        "sentences": [
+            {
+                "en": "Please open the door.",
+                "vn": "Xin vui lòng mở cửa.",
+                "meanings": {
+                    "Xin vui lòng": "Please (polite)",
+                    "mở": "open",
+                    "cửa": "door"
+                }
+            },
+            {
+                "en": "The shop opens at 8 AM.",
+                "vn": "Cửa hàng mở cửa lúc 8 giờ sáng.",
+                "meanings": {
+                    "Cửa hàng": "Shop/store",
+                    "mở cửa": "opens (door) / opens for business",
+                    "lúc": "at (time)",
+                    "8 giờ sáng": "8 AM"
+                }
+            }
+        ]
+    },
+    {
+        "word": "đóng",
+        "meanings": [
+            "close",
+            "shut"
+        ],
+        "sentences": [
+            {
+                "en": "Please close the window.",
+                "vn": "Làm ơn đóng cửa sổ lại.",
+                "meanings": {
+                    "Làm ơn": "Please (common)",
+                    "đóng": "close",
+                    "cửa sổ": "window",
+                    "lại": "(particle indicating completion or return to original state)"
+                }
+            },
+            {
+                "en": "The bank closes at 5 PM.",
+                "vn": "Ngân hàng đóng cửa lúc 5 giờ chiều.",
+                "meanings": {
+                    "Ngân hàng": "Bank",
+                    "đóng cửa": "closes (door) / closes for business",
+                    "lúc": "at (time)",
+                    "5 giờ chiều": "5 PM"
+                }
+            }
+        ]
+    },
+    {
+        "word": "chơi",
+        "meanings": [
+            "play"
+        ],
+        "sentences": [
+            {
+                "en": "The children are playing in the park.",
+                "vn": "Trẻ con đang chơi trong công viên.",
+                "meanings": {
+                    "Trẻ con": "Children",
+                    "đang": "(present continuous marker)",
+                    "chơi": "play",
+                    "trong": "in",
+                    "công viên": "park"
+                }
+            },
+            {
+                "en": "Do you play any sports?",
+                "vn": "Bạn có chơi môn thể thao nào không?",
+                "meanings": {
+                    "Bạn": "You (informal/peer)",
+                    "có chơi": "play (in question form)",
+                    "môn thể thao nào": "any sport",
+                    "không": "(end-sentence question particle)"
+                }
+            }
+        ]
+    },
+    {
+        "word": "hát",
+        "meanings": [
+            "sing"
+        ],
+        "sentences": [
+            {
+                "en": "She likes to sing.",
+                "vn": "Cô ấy thích hát.",
+                "meanings": {
+                    "Cô ấy": "She",
+                    "thích": "like",
+                    "hát": "sing"
+                }
+            },
+            {
+                "en": "Let's sing a song together.",
+                "vn": "Chúng ta hãy cùng nhau hát một bài.",
+                "meanings": {
+                    "Chúng ta": "We (inclusive)",
+                    "hãy": "let's / shall",
+                    "cùng nhau": "together",
+                    "hát": "sing",
+                    "một bài": "a song (bài is classifier)"
+                }
+            }
+        ]
+    },
+    {
+        "word": "nghe",
+        "meanings": [
+            "listen",
+            "hear"
+        ],
+        "sentences": [
+            {
+                "en": "I like listening to music.",
+                "vn": "Tôi thích nghe nhạc.",
+                "meanings": {
+                    "Tôi": "I",
+                    "thích": "like",
+                    "nghe": "listen",
+                    "nhạc": "music"
+                }
+            },
+            {
+                "en": "Did you hear that noise?",
+                "vn": "Bạn có nghe thấy tiếng ồn đó không?",
+                "meanings": {
+                    "Bạn": "You (informal/peer)",
+                    "có nghe thấy": "hear (in question form)",
+                    "tiếng ồn": "noise",
+                    "đó": "that",
+                    "không": "(end-sentence question particle)"
+                }
+            }
+        ]
+    },
+    {
+        "word": "đọc",
+        "meanings": [
+            "read"
+        ],
+        "sentences": [
+            {
+                "en": "He is reading a newspaper.",
+                "vn": "Anh ấy đang đọc báo.",
+                "meanings": {
+                    "Anh ấy": "He",
+                    "đang": "(present continuous marker)",
+                    "đọc": "read",
+                    "báo": "newspaper"
+                }
+            },
+            {
+                "en": "Can you read this for me?",
+                "vn": "Bạn có thể đọc cái này cho tôi được không?",
+                "meanings": {
+                    "Bạn": "You (informal/peer)",
+                    "có thể": "can",
+                    "đọc": "read",
+                    "cái này": "this one",
+                    "cho tôi": "for me",
+                    "được không": "(permission/request particle)"
+                }
+            }
+        ]
+    },
+    {
+        "word": "lạnh",
+        "meanings": [
+            "cold"
+        ],
+        "sentences": [
+            {
+                "en": "It's cold today.",
+                "vn": "Hôm nay trời lạnh.",
+                "meanings": {
+                    "Hôm nay": "Today",
+                    "trời": "weather/sky",
+                    "lạnh": "cold"
+                }
+            },
+            {
+                "en": "I feel cold.",
+                "vn": "Tôi cảm thấy lạnh.",
+                "meanings": {
+                    "Tôi": "I",
+                    "cảm thấy": "feel",
+                    "lạnh": "cold"
+                }
+            }
+        ]
+    },
+    {
+        "word": "nóng",
+        "meanings": [
+            "hot"
+        ],
+        "sentences": [
+            {
+                "en": "The weather is very hot.",
+                "vn": "Thời tiết rất nóng.",
+                "meanings": {
+                    "Thời tiết": "Weather",
+                    "rất": "very",
+                    "nóng": "hot"
+                }
+            },
+            {
+                "en": "This soup is too hot.",
+                "vn": "Món súp này nóng quá.",
+                "meanings": {
+                    "Món súp": "Soup (món is classifier for dishes)",
+                    "này": "this",
+                    "nóng quá": "too hot"
+                }
+            }
+        ]
+    },
+    {
+        "word": "vui",
+        "meanings": [
+            "happy",
+            "fun",
+            "joyful"
+        ],
+        "sentences": [
+            {
+                "en": "I am very happy today.",
+                "vn": "Hôm nay tôi rất vui.",
+                "meanings": {
+                    "Hôm nay": "Today",
+                    "tôi": "I",
+                    "rất": "very",
+                    "vui": "happy"
+                }
+            },
+            {
+                "en": "It was a fun party.",
+                "vn": "Đó là một bữa tiệc vui.",
+                "meanings": {
+                    "Đó": "That",
+                    "là": "was",
+                    "một": "a",
+                    "bữa tiệc": "party",
+                    "vui": "fun"
+                }
+            }
+        ]
+    },
+    {
+        "word": "buồn",
+        "meanings": [
+            "sad"
+        ],
+        "sentences": [
+            {
+                "en": "Why do you look sad?",
+                "vn": "Sao trông bạn buồn vậy?",
+                "meanings": {
+                    "Sao": "Why",
+                    "trông": "look/appear",
+                    "bạn": "you (informal/peer)",
+                    "buồn": "sad",
+                    "vậy": "(sentence final particle, adds inquiring tone)"
+                }
+            },
+            {
+                "en": "This song makes me feel sad.",
+                "vn": "Bài hát này làm tôi cảm thấy buồn.",
+                "meanings": {
+                    "Bài hát": "Song (bài is classifier)",
+                    "này": "this",
+                    "làm": "make(s)",
+                    "tôi": "me",
+                    "cảm thấy": "feel",
+                    "buồn": "sad"
+                }
+            }
+        ]
+    },
+    {
+        "word": "mệt",
+        "meanings": [
+            "tired"
+        ],
+        "sentences": [
+            {
+                "en": "I feel very tired after work.",
+                "vn": "Tôi cảm thấy rất mệt sau giờ làm.",
+                "meanings": {
+                    "Tôi": "I",
+                    "cảm thấy": "feel",
+                    "rất": "very",
+                    "mệt": "tired",
+                    "sau giờ làm": "after work hours"
+                }
+            },
+            {
+                "en": "Are you tired?",
+                "vn": "Bạn có mệt không?",
+                "meanings": {
+                    "Bạn": "You (informal/peer)",
+                    "có mệt": "tired (in question form)",
+                    "không": "(end-sentence question particle)"
+                }
+            }
+        ]
+    },
+    {
+        "word": "khỏe",
+        "meanings": [
+            "healthy",
+            "well",
+            "strong"
+        ],
+        "sentences": [
+            {
+                "en": "How are you? (Are you well?)",
+                "vn": "Bạn có khỏe không?",
+                "meanings": {
+                    "Bạn": "You (informal/peer)",
+                    "có khỏe": "well/healthy (in question form)",
+                    "không": "(end-sentence question particle)"
+                }
+            },
+            {
+                "en": "He is very strong.",
+                "vn": "Anh ấy rất khỏe.",
+                "meanings": {
+                    "Anh ấy": "He",
+                    "rất": "very",
+                    "khỏe": "strong"
+                }
+            }
+        ]
+    },
+    {
+        "word": "đói",
+        "meanings": [
+            "hungry"
+        ],
+        "sentences": [
+            {
+                "en": "Are you hungry?",
+                "vn": "Bạn có đói không?",
+                "meanings": {
+                    "Bạn": "You (informal/peer)",
+                    "có đói": "hungry (in question form)",
+                    "không": "(end-sentence question particle)"
+                }
+            },
+            {
+                "en": "I'm very hungry, let's eat.",
+                "vn": "Tôi đói lắm, chúng ta ăn thôi.",
+                "meanings": {
+                    "Tôi": "I",
+                    "đói lắm": "very hungry",
+                    "chúng ta": "we (inclusive)",
+                    "ăn thôi": "let's eat / just eat"
+                }
+            }
+        ]
+    },
+    {
+        "word": "no",
+        "meanings": [
+            "full (after eating)"
+        ],
+        "sentences": [
+            {
+                "en": "Are you full?",
+                "vn": "Bạn no chưa?",
+                "meanings": {
+                    "Bạn": "You (informal/peer)",
+                    "no": "full",
+                    "chưa": "yet? / already?"
+                }
+            },
+            {
+                "en": "I'm full, thank you.",
+                "vn": "Tôi no rồi, cảm ơn.",
+                "meanings": {
+                    "Tôi": "I",
+                    "no rồi": "full already",
+                    "cảm ơn": "thank you"
+                }
+            }
+        ]
+    },
+    {
+        "word": "khát",
+        "meanings": [
+            "thirsty"
+        ],
+        "sentences": [
+            {
+                "en": "I am thirsty, I need some water.",
+                "vn": "Tôi khát nước, tôi cần uống nước.",
+                "meanings": {
+                    "Tôi": "I",
+                    "khát nước": "thirsty (literally 'thirst for water')",
+                    "cần": "need",
+                    "uống nước": "drink water"
+                }
+            },
+            {
+                "en": "Are you thirsty?",
+                "vn": "Bạn có khát không?",
+                "meanings": {
+                    "Bạn": "You (informal/peer)",
+                    "có khát": "thirsty (in question form)",
+                    "không": "(end-sentence question particle)"
+                }
+            }
+        ]
+    },
+    {
+        "word": "chậm",
+        "meanings": [
+            "slow"
+        ],
+        "sentences": [
+            {
+                "en": "Please speak slowly.",
+                "vn": "Xin vui lòng nói chậm lại.",
+                "meanings": {
+                    "Xin vui lòng": "Please (polite)",
+                    "nói": "speak",
+                    "chậm lại": "slow down"
+                }
+            },
+            {
+                "en": "This train is very slow.",
+                "vn": "Chuyến tàu này rất chậm.",
+                "meanings": {
+                    "Chuyến tàu": "Train (chuyến is classifier)",
+                    "này": "this",
+                    "rất": "very",
+                    "chậm": "slow"
+                }
+            }
+        ]
+    },
+    {
+        "word": "nhanh",
+        "meanings": [
+            "fast",
+            "quick"
+        ],
+        "sentences": [
+            {
+                "en": "Can you walk faster?",
+                "vn": "Bạn có thể đi nhanh hơn không?",
+                "meanings": {
+                    "Bạn": "You (informal/peer)",
+                    "có thể": "can",
+                    "đi nhanh hơn": "walk faster",
+                    "không": "(end-sentence question particle)"
+                }
+            },
+            {
+                "en": "He finished his work quickly.",
+                "vn": "Anh ấy hoàn thành công việc rất nhanh.",
+                "meanings": {
+                    "Anh ấy": "He",
+                    "hoàn thành": "finished/completed",
+                    "công việc": "work",
+                    "rất nhanh": "very quickly/fast"
+                }
+            }
+        ]
+    },
+    {
+        "word": "dễ",
+        "meanings": [
+            "easy"
+        ],
+        "sentences": [
+            {
+                "en": "This exercise is very easy.",
+                "vn": "Bài tập này rất dễ.",
+                "meanings": {
+                    "Bài tập": "Exercise (bài is classifier)",
+                    "này": "this",
+                    "rất": "very",
+                    "dễ": "easy"
+                }
+            },
+            {
+                "en": "Is it easy to learn Vietnamese?",
+                "vn": "Học tiếng Việt có dễ không?",
+                "meanings": {
+                    "Học tiếng Việt": "Learning Vietnamese",
+                    "có dễ": "easy (in question form)",
+                    "không": "(end-sentence question particle)"
+                }
+            }
+        ]
+    },
+    {
+        "word": "khó",
+        "meanings": [
+            "difficult",
+            "hard"
+        ],
+        "sentences": [
+            {
+                "en": "This question is too difficult.",
+                "vn": "Câu hỏi này khó quá.",
+                "meanings": {
+                    "Câu hỏi": "Question (câu is classifier)",
+                    "này": "this",
+                    "khó quá": "too difficult"
+                }
+            },
+            {
+                "en": "Learning pronunciation is hard.",
+                "vn": "Học phát âm rất khó.",
+                "meanings": {
+                    "Học phát âm": "Learning pronunciation",
+                    "rất": "very",
+                    "khó": "hard/difficult"
+                }
+            }
+        ]
+    },
+    {
+        "word": "đúng",
+        "meanings": [
+            "correct",
+            "right",
+            "true"
+        ],
+        "sentences": [
+            {
+                "en": "Is this answer correct?",
+                "vn": "Câu trả lời này có đúng không?",
+                "meanings": {
+                    "Câu trả lời": "Answer",
+                    "này": "this",
+                    "có đúng": "correct (in question form)",
+                    "không": "(end-sentence question particle)"
+                }
+            },
+            {
+                "en": "You are right.",
+                "vn": "Bạn nói đúng.",
+                "meanings": {
+                    "Bạn": "You (informal/peer)",
+                    "nói đúng": "speak correctly / are right"
+                }
+            }
+        ]
+    },
+    {
+        "word": "sai",
+        "meanings": [
+            "wrong",
+            "incorrect",
+            "mistake"
+        ],
+        "sentences": [
+            {
+                "en": "This calculation is wrong.",
+                "vn": "Phép tính này bị sai.",
+                "meanings": {
+                    "Phép tính": "Calculation",
+                    "này": "this",
+                    "bị sai": "is wrong / has a mistake"
+                }
+            },
+            {
+                "en": "I think you made a mistake.",
+                "vn": "Tôi nghĩ bạn đã làm sai.",
+                "meanings": {
+                    "Tôi nghĩ": "I think",
+                    "bạn": "you (informal/peer)",
+                    "đã làm sai": "did wrong / made a mistake"
+                }
+            }
+        ]
+    },
+    {
+        "word": "tốt",
+        "meanings": [
+            "good",
+            "well"
+        ],
+        "sentences": [
+            {
+                "en": "This food is very good.",
+                "vn": "Món ăn này rất tốt.",
+                "meanings": {
+                    "Món ăn": "Dish (food)",
+                    "này": "this",
+                    "rất": "very",
+                    "tốt": "good"
+                }
+            },
+            {
+                "en": "He speaks English well.",
+                "vn": "Anh ấy nói tiếng Anh tốt.",
+                "meanings": {
+                    "Anh ấy": "He",
+                    "nói": "speak",
+                    "tiếng Anh": "English language",
+                    "tốt": "well"
+                }
+            }
+        ]
+    },
+    {
+        "word": "xấu",
+        "meanings": [
+            "bad",
+            "ugly"
+        ],
+        "sentences": [
+            {
+                "en": "Smoking is bad for your health.",
+                "vn": "Hút thuốc lá xấu cho sức khỏe.",
+                "meanings": {
+                    "Hút thuốc lá": "Smoking cigarettes",
+                    "xấu": "bad",
+                    "cho": "for",
+                    "sức khỏe": "health"
+                }
+            },
+            {
+                "en": "The weather is bad today.",
+                "vn": "Hôm nay thời tiết xấu.",
+                "meanings": {
+                    "Hôm nay": "Today",
+                    "thời tiết": "weather",
+                    "xấu": "bad"
+                }
+            }
+        ]
+    },
+    {
+        "word": "mới",
+        "meanings": [
+            "new"
+        ],
+        "sentences": [
+            {
+                "en": "I bought a new phone.",
+                "vn": "Tôi đã mua một cái điện thoại mới.",
+                "meanings": {
+                    "Tôi": "I",
+                    "đã mua": "bought (past tense)",
+                    "một cái": "a/one (cái is general classifier)",
+                    "điện thoại": "phone",
+                    "mới": "new"
+                }
+            },
+            {
+                "en": "Is this restaurant new?",
+                "vn": "Nhà hàng này mới mở phải không?",
+                "meanings": {
+                    "Nhà hàng": "Restaurant",
+                    "này": "this",
+                    "mới mở": "newly opened",
+                    "phải không": "right? / isn't it?"
+                }
+            }
+        ]
+    },
+    {
+        "word": "cũ",
+        "meanings": [
+            "old (for objects)"
+        ],
+        "sentences": [
+            {
+                "en": "This book is very old.",
+                "vn": "Quyển sách này rất cũ.",
+                "meanings": {
+                    "Quyển sách": "Book (quyển is classifier)",
+                    "này": "this",
+                    "rất": "very",
+                    "cũ": "old"
+                }
+            },
+            {
+                "en": "My old house was smaller.",
+                "vn": "Nhà cũ của tôi nhỏ hơn.",
+                "meanings": {
+                    "Nhà cũ": "Old house",
+                    "của tôi": "my",
+                    "nhỏ hơn": "smaller"
+                }
+            }
+        ]
+    },
+    {
+        "word": "già",
+        "meanings": [
+            "old (for people/animals)"
+        ],
+        "sentences": [
+            {
+                "en": "My grandfather is very old.",
+                "vn": "Ông tôi rất già.",
+                "meanings": {
+                    "Ông tôi": "My grandfather",
+                    "rất": "very",
+                    "già": "old"
+                }
+            },
+            {
+                "en": "The old dog sleeps all day.",
+                "vn": "Con chó già ngủ cả ngày.",
+                "meanings": {
+                    "Con chó": "Dog (con is classifier for animals)",
+                    "già": "old",
+                    "ngủ": "sleep",
+                    "cả ngày": "all day"
+                }
+            }
+        ]
+    },
+    {
+        "word": "trẻ",
+        "meanings": [
+            "young"
+        ],
+        "sentences": [
+            {
+                "en": "She looks very young.",
+                "vn": "Trông cô ấy rất trẻ.",
+                "meanings": {
+                    "Trông": "Look/appear",
+                    "cô ấy": "she",
+                    "rất": "very",
+                    "trẻ": "young"
+                }
+            },
+            {
+                "en": "Young people like listening to modern music.",
+                "vn": "Người trẻ thích nghe nhạc hiện đại.",
+                "meanings": {
+                    "Người trẻ": "Young people",
+                    "thích": "like",
+                    "nghe": "listen",
+                    "nhạc hiện đại": "modern music"
+                }
+            }
+        ]
+    },
+    {
+        "word": "cao",
+        "meanings": [
+            "tall",
+            "high"
+        ],
+        "sentences": [
+            {
+                "en": "He is very tall.",
+                "vn": "Anh ấy rất cao.",
+                "meanings": {
+                    "Anh ấy": "He",
+                    "rất": "very",
+                    "cao": "tall"
+                }
+            },
+            {
+                "en": "That mountain is very high.",
+                "vn": "Ngọn núi đó rất cao.",
+                "meanings": {
+                    "Ngọn núi": "Mountain (ngọn is classifier)",
+                    "đó": "that",
+                    "rất": "very",
+                    "cao": "high"
+                }
+            }
+        ]
+    },
+    {
+        "word": "thấp",
+        "meanings": [
+            "short (height)",
+            "low"
+        ],
+        "sentences": [
+            {
+                "en": "She is shorter than her sister.",
+                "vn": "Cô ấy thấp hơn chị gái.",
+                "meanings": {
+                    "Cô ấy": "She",
+                    "thấp hơn": "shorter than",
+                    "chị gái": "older sister"
+                }
+            },
+            {
+                "en": "The price is quite low.",
+                "vn": "Giá khá thấp.",
+                "meanings": {
+                    "Giá": "Price",
+                    "khá": "quite",
+                    "thấp": "low"
+                }
+            }
+        ]
+    },
+    {
+        "word": "dài",
+        "meanings": [
+            "long"
+        ],
+        "sentences": [
+            {
+                "en": "The river is very long.",
+                "vn": "Con sông này rất dài.",
+                "meanings": {
+                    "Con sông": "River (con is classifier)",
+                    "này": "this",
+                    "rất": "very",
+                    "dài": "long"
+                }
+            },
+            {
+                "en": "She has long hair.",
+                "vn": "Cô ấy có mái tóc dài.",
+                "meanings": {
+                    "Cô ấy": "She",
+                    "có": "has",
+                    "mái tóc": "hair (on head)",
+                    "dài": "long"
+                }
+            }
+        ]
+    },
+    {
+        "word": "ngắn",
+        "meanings": [
+            "short (length)"
+        ],
+        "sentences": [
+            {
+                "en": "This road is quite short.",
+                "vn": "Con đường này khá ngắn.",
+                "meanings": {
+                    "Con đường": "Road (con is classifier)",
+                    "này": "this",
+                    "khá": "quite",
+                    "ngắn": "short"
+                }
+            },
+            {
+                "en": "He wrote a short story.",
+                "vn": "Anh ấy đã viết một truyện ngắn.",
+                "meanings": {
+                    "Anh ấy": "He",
+                    "đã viết": "wrote (past tense)",
+                    "một": "a/one",
+                    "truyện ngắn": "short story"
+                }
+            }
+        ]
+    },
+    {
+        "word": "rộng",
+        "meanings": [
+            "wide",
+            "spacious"
+        ],
+        "sentences": [
+            {
+                "en": "The room is very spacious.",
+                "vn": "Căn phòng này rất rộng.",
+                "meanings": {
+                    "Căn phòng": "Room (căn is classifier)",
+                    "này": "this",
+                    "rất": "very",
+                    "rộng": "spacious/wide"
+                }
+            },
+            {
+                "en": "This street is wider than that one.",
+                "vn": "Đường này rộng hơn đường kia.",
+                "meanings": {
+                    "Đường này": "This street",
+                    "rộng hơn": "wider than",
+                    "đường kia": "that street (over there)"
+                }
+            }
+        ]
+    },
+    {
+        "word": "hẹp",
+        "meanings": [
+            "narrow"
+        ],
+        "sentences": [
+            {
+                "en": "The alley is very narrow.",
+                "vn": "Con hẻm này rất hẹp.",
+                "meanings": {
+                    "Con hẻm": "Alley (con is classifier)",
+                    "này": "this",
+                    "rất": "very",
+                    "hẹp": "narrow"
+                }
+            },
+            {
+                "en": "This bridge is too narrow for cars.",
+                "vn": "Cây cầu này quá hẹp cho ô tô.",
+                "meanings": {
+                    "Cây cầu": "Bridge (cây is classifier)",
+                    "này": "this",
+                    "quá hẹp": "too narrow",
+                    "cho": "for",
+                    "ô tô": "cars"
+                }
+            }
+        ]
+    },
+    {
+        "word": "nặng",
+        "meanings": [
+            "heavy"
+        ],
+        "sentences": [
+            {
+                "en": "This suitcase is very heavy.",
+                "vn": "Cái vali này rất nặng.",
+                "meanings": {
+                    "Cái vali": "Suitcase (cái is classifier)",
+                    "này": "this",
+                    "rất": "very",
+                    "nặng": "heavy"
+                }
+            },
+            {
+                "en": "How heavy is it?",
+                "vn": "Nó nặng bao nhiêu?",
+                "meanings": {
+                    "Nó": "It",
+                    "nặng": "heavy",
+                    "bao nhiêu": "how much"
+                }
+            }
+        ]
+    },
+    {
+        "word": "nhẹ",
+        "meanings": [
+            "light (weight)"
+        ],
+        "sentences": [
+            {
+                "en": "This box is very light.",
+                "vn": "Cái hộp này rất nhẹ.",
+                "meanings": {
+                    "Cái hộp": "Box (cái is classifier)",
+                    "này": "this",
+                    "rất": "very",
+                    "nhẹ": "light"
+                }
+            },
+            {
+                "en": "Feathers are light.",
+                "vn": "Lông vũ thì nhẹ.",
+                "meanings": {
+                    "Lông vũ": "Feather(s)",
+                    "thì": "(topic marker / then)",
+                    "nhẹ": "light"
+                }
+            }
+        ]
+    },
+    {
+        "word": "sạch",
+        "meanings": [
+            "clean"
+        ],
+        "sentences": [
+            {
+                "en": "Please keep the room clean.",
+                "vn": "Xin vui lòng giữ phòng sạch sẽ.",
+                "meanings": {
+                    "Xin vui lòng": "Please (polite)",
+                    "giữ": "keep",
+                    "phòng": "room",
+                    "sạch sẽ": "clean (sẽ adds emphasis/completeness)"
+                }
+            },
+            {
+                "en": "Are your hands clean?",
+                "vn": "Tay bạn có sạch không?",
+                "meanings": {
+                    "Tay": "Hand(s)",
+                    "bạn": "your",
+                    "có sạch": "clean (in question form)",
+                    "không": "(end-sentence question particle)"
+                }
+            }
+        ]
+    },
+    {
+        "word": "bẩn",
+        "meanings": [
+            "dirty"
+        ],
+        "sentences": [
+            {
+                "en": "My shoes are dirty.",
+                "vn": "Giày của tôi bị bẩn.",
+                "meanings": {
+                    "Giày": "Shoe(s)",
+                    "của tôi": "my",
+                    "bị bẩn": "are dirty / got dirty"
+                }
+            },
+            {
+                "en": "Don't play with dirty water.",
+                "vn": "Đừng chơi với nước bẩn.",
+                "meanings": {
+                    "Đừng": "Don't",
+                    "chơi": "play",
+                    "với": "with",
+                    "nước bẩn": "dirty water"
+                }
+            }
+        ]
+    },
+    {
+        "word": "đắt",
+        "meanings": [
+            "expensive"
+        ],
+        "sentences": [
+            {
+                "en": "This watch is too expensive.",
+                "vn": "Cái đồng hồ này đắt quá.",
+                "meanings": {
+                    "Cái đồng hồ": "Watch (cái is classifier)",
+                    "này": "this",
+                    "đắt quá": "too expensive"
+                }
+            },
+            {
+                "en": "Is it expensive to live in this city?",
+                "vn": "Sống ở thành phố này có đắt đỏ không?",
+                "meanings": {
+                    "Sống": "Live",
+                    "ở": "in/at",
+                    "thành phố": "city",
+                    "này": "this",
+                    "có đắt đỏ": "expensive (đỏ adds emphasis)",
+                    "không": "(end-sentence question particle)"
+                }
+            }
+        ]
+    },
+    {
+        "word": "rẻ",
+        "meanings": [
+            "cheap",
+            "inexpensive"
+        ],
+        "sentences": [
+            {
+                "en": "The food here is quite cheap.",
+                "vn": "Đồ ăn ở đây khá rẻ.",
+                "meanings": {
+                    "Đồ ăn": "Food",
+                    "ở đây": "here",
+                    "khá": "quite",
+                    "rẻ": "cheap"
+                }
+            },
+            {
+                "en": "Can you find a cheaper hotel?",
+                "vn": "Bạn có thể tìm một khách sạn rẻ hơn không?",
+                "meanings": {
+                    "Bạn": "You (informal/peer)",
+                    "có thể": "can",
+                    "tìm": "find",
+                    "một": "a/one",
+                    "khách sạn": "hotel",
+                    "rẻ hơn": "cheaper",
+                    "không": "(end-sentence question particle)"
+                }
+            }
+        ]
+    },
+    {
+        "word": "gần",
+        "meanings": [
+            "near",
+            "close"
+        ],
+        "sentences": [
+            {
+                "en": "My house is near the school.",
+                "vn": "Nhà tôi ở gần trường học.",
+                "meanings": {
+                    "Nhà tôi": "My house",
+                    "ở": "is at / located at",
+                    "gần": "near",
+                    "trường học": "school"
+                }
+            },
+            {
+                "en": "Is the station near here?",
+                "vn": "Ga có gần đây không?",
+                "meanings": {
+                    "Ga": "Station",
+                    "có gần": "near (in question form)",
+                    "đây": "here",
+                    "không": "(end-sentence question particle)"
+                }
+            }
+        ]
+    },
+    {
+        "word": "xa",
+        "meanings": [
+            "far",
+            "distant"
+        ],
+        "sentences": [
+            {
+                "en": "The airport is far from the city center.",
+                "vn": "Sân bay ở xa trung tâm thành phố.",
+                "meanings": {
+                    "Sân bay": "Airport",
+                    "ở": "is at / located at",
+                    "xa": "far",
+                    "trung tâm thành phố": "city center"
+                }
+            },
+            {
+                "en": "How far is it to Hanoi?",
+                "vn": "Đi Hà Nội bao xa?",
+                "meanings": {
+                    "Đi": "Go (to)",
+                    "Hà Nội": "Hanoi",
+                    "bao xa": "how far"
+                }
+            }
+        ]
+    },
+    {
+        "word": "sớm",
+        "meanings": [
+            "early"
+        ],
+        "sentences": [
+            {
+                "en": "I woke up early this morning.",
+                "vn": "Sáng nay tôi dậy sớm.",
+                "meanings": {
+                    "Sáng nay": "This morning",
+                    "tôi": "I",
+                    "dậy sớm": "woke up early"
+                }
+            },
+            {
+                "en": "Please come early tomorrow.",
+                "vn": "Ngày mai xin vui lòng đến sớm.",
+                "meanings": {
+                    "Ngày mai": "Tomorrow",
+                    "xin vui lòng": "please (polite)",
+                    "đến sớm": "come early"
+                }
+            }
+        ]
+    },
+    {
+        "word": "muộn",
+        "meanings": [
+            "late"
+        ],
+        "sentences": [
+            {
+                "en": "Sorry, I'm late.",
+                "vn": "Xin lỗi, tôi đến muộn.",
+                "meanings": {
+                    "Xin lỗi": "Sorry / Excuse me",
+                    "tôi": "I",
+                    "đến muộn": "arrived late"
+                }
+            },
+            {
+                "en": "Don't stay up too late.",
+                "vn": "Đừng thức khuya quá.",
+                "meanings": {
+                    "Đừng": "Don't",
+                    "thức khuya": "stay up late",
+                    "quá": "too / very"
+                }
+            }
+        ]
+    },
+    {
+        "word": "trước",
+        "meanings": [
+            "before",
+            "in front of",
+            "ago"
+        ],
+        "sentences": [
+            {
+                "en": "Wash your hands before eating.",
+                "vn": "Rửa tay trước khi ăn.",
+                "meanings": {
+                    "Rửa tay": "Wash hands",
+                    "trước khi": "before",
+                    "ăn": "eat"
+                }
+            },
+            {
+                "en": "The car is in front of the house.",
+                "vn": "Xe ô tô ở trước nhà.",
+                "meanings": {
+                    "Xe ô tô": "Car",
+                    "ở": "is at",
+                    "trước": "in front of",
+                    "nhà": "house"
+                }
+            },
+            {
+                "en": "I met him two years ago.",
+                "vn": "Tôi gặp anh ấy hai năm trước.",
+                "meanings": {
+                    "Tôi": "I",
+                    "gặp": "met",
+                    "anh ấy": "him",
+                    "hai năm": "two years",
+                    "trước": "ago"
+                }
+            }
+        ]
+    },
+    {
+        "word": "sau",
+        "meanings": [
+            "after",
+            "behind",
+            "later"
+        ],
+        "sentences": [
+            {
+                "en": "I will call you after work.",
+                "vn": "Tôi sẽ gọi cho bạn sau giờ làm.",
+                "meanings": {
+                    "Tôi": "I",
+                    "sẽ": "(future tense marker)",
+                    "gọi cho": "call (someone)",
+                    "bạn": "you (informal/peer)",
+                    "sau giờ làm": "after work hours"
+                }
+            },
+            {
+                "en": "The garden is behind the house.",
+                "vn": "Khu vườn ở sau nhà.",
+                "meanings": {
+                    "Khu vườn": "Garden",
+                    "ở": "is at",
+                    "sau": "behind",
+                    "nhà": "house"
+                }
+            },
+            {
+                "en": "See you later.",
+                "vn": "Gặp lại sau nhé.",
+                "meanings": {
+                    "Gặp lại": "Meet again",
+                    "sau": "later",
+                    "nhé": "(particle for friendliness)"
+                }
+            }
+        ]
+    },
+    {
+        "word": "trên",
+        "meanings": [
+            "on",
+            "above",
+            "upstairs"
+        ],
+        "sentences": [
+            {
+                "en": "The book is on the table.",
+                "vn": "Quyển sách ở trên bàn.",
+                "meanings": {
+                    "Quyển sách": "Book",
+                    "ở": "is at",
+                    "trên": "on",
+                    "bàn": "table"
+                }
+            },
+            {
+                "en": "The plane flew above the clouds.",
+                "vn": "Máy bay bay trên mây.",
+                "meanings": {
+                    "Máy bay": "Airplane",
+                    "bay": "fly",
+                    "trên": "above",
+                    "mây": "cloud(s)"
+                }
+            }
+        ]
+    },
+    {
+        "word": "dưới",
+        "meanings": [
+            "under",
+            "below",
+            "downstairs"
+        ],
+        "sentences": [
+            {
+                "en": "The cat is under the chair.",
+                "vn": "Con mèo ở dưới ghế.",
+                "meanings": {
+                    "Con mèo": "Cat",
+                    "ở": "is at",
+                    "dưới": "under",
+                    "ghế": "chair"
+                }
+            },
+            {
+                "en": "The temperature is below zero.",
+                "vn": "Nhiệt độ dưới không độ.",
+                "meanings": {
+                    "Nhiệt độ": "Temperature",
+                    "dưới": "below",
+                    "không độ": "zero degrees"
+                }
+            }
+        ]
+    },
+    {
+        "word": "trong",
+        "meanings": [
+            "in",
+            "inside",
+            "clear (water/air)"
+        ],
+        "sentences": [
+            {
+                "en": "The key is in the box.",
+                "vn": "Chìa khóa ở trong hộp.",
+                "meanings": {
+                    "Chìa khóa": "Key",
+                    "ở": "is at",
+                    "trong": "in/inside",
+                    "hộp": "box"
+                }
+            },
+            {
+                "en": "The water is very clear.",
+                "vn": "Nước rất trong.",
+                "meanings": {
+                    "Nước": "Water",
+                    "rất": "very",
+                    "trong": "clear"
+                }
+            }
+        ]
+    },
+    {
+        "word": "ngoài",
+        "meanings": [
+            "out",
+            "outside"
+        ],
+        "sentences": [
+            {
+                "en": "Let's go outside.",
+                "vn": "Chúng ta ra ngoài đi.",
+                "meanings": {
+                    "Chúng ta": "We (inclusive)",
+                    "ra ngoài": "go out/outside",
+                    "đi": "(urging particle)"
+                }
+            },
+            {
+                "en": "He is waiting outside.",
+                "vn": "Anh ấy đang đợi ở ngoài.",
+                "meanings": {
+                    "Anh ấy": "He",
+                    "đang đợi": "is waiting",
+                    "ở ngoài": "outside"
+                }
+            }
+        ]
+    },
+    {
+        "word": "phải",
+        "meanings": [
+            "right (direction)",
+            "must",
+            "have to"
+        ],
+        "sentences": [
+            {
+                "en": "Turn right at the next corner.",
+                "vn": "Rẽ phải ở góc tiếp theo.",
+                "meanings": {
+                    "Rẽ": "Turn",
+                    "phải": "right",
+                    "ở": "at",
+                    "góc tiếp theo": "next corner"
+                }
+            },
+            {
+                "en": "You must finish your homework.",
+                "vn": "Bạn phải hoàn thành bài tập về nhà.",
+                "meanings": {
+                    "Bạn": "You (informal/peer)",
+                    "phải": "must/have to",
+                    "hoàn thành": "finish/complete",
+                    "bài tập về nhà": "homework"
+                }
+            }
+        ]
+    },
+    {
+        "word": "trái",
+        "meanings": [
+            "left (direction)",
+            "fruit"
+        ],
+        "sentences": [
+            {
+                "en": "The school is on the left.",
+                "vn": "Trường học ở bên trái.",
+                "meanings": {
+                    "Trường học": "School",
+                    "ở": "is at",
+                    "bên trái": "left side"
+                }
+            },
+            {
+                "en": "What kind of fruit is this?",
+                "vn": "Đây là trái gì?",
+                "meanings": {
+                    "Đây": "This",
+                    "là": "is",
+                    "trái": "fruit",
+                    "gì": "what"
+                }
+            }
+        ]
+    },
+    {
+        "word": "màu",
+        "meanings": [
+            "color"
+        ],
+        "sentences": [
+            {
+                "en": "What is your favorite color?",
+                "vn": "Màu sắc yêu thích của bạn là gì?",
+                "meanings": {
+                    "Màu sắc": "Color",
+                    "yêu thích": "favorite",
+                    "của bạn": "your",
+                    "là gì": "is what"
+                }
+            },
+            {
+                "en": "This shirt has many colors.",
+                "vn": "Cái áo này có nhiều màu.",
+                "meanings": {
+                    "Cái áo": "Shirt",
+                    "này": "this",
+                    "có": "has",
+                    "nhiều": "many",
+                    "màu": "color(s)"
+                }
+            }
+        ]
+    },
+    {
+        "word": "trắng",
+        "meanings": [
+            "white"
+        ],
+        "sentences": [
+            {
+                "en": "She wore a white dress.",
+                "vn": "Cô ấy mặc một chiếc váy màu trắng.",
+                "meanings": {
+                    "Cô ấy": "She",
+                    "mặc": "wore",
+                    "một chiếc": "a/one (chiếc is classifier)",
+                    "váy": "dress",
+                    "màu trắng": "white color"
+                }
+            },
+            {
+                "en": "The walls are painted white.",
+                "vn": "Các bức tường được sơn màu trắng.",
+                "meanings": {
+                    "Các bức tường": "The walls",
+                    "được sơn": "are painted",
+                    "màu trắng": "white color"
+                }
+            }
+        ]
+    },
+    {
+        "word": "đen",
+        "meanings": [
+            "black"
+        ],
+        "sentences": [
+            {
+                "en": "He has a black cat.",
+                "vn": "Anh ấy có một con mèo đen.",
+                "meanings": {
+                    "Anh ấy": "He",
+                    "có": "has",
+                    "một con": "a/one (con is classifier)",
+                    "mèo đen": "black cat"
+                }
+            },
+            {
+                "en": "The night sky is black.",
+                "vn": "Bầu trời đêm màu đen.",
+                "meanings": {
+                    "Bầu trời đêm": "Night sky",
+                    "màu đen": "black color"
+                }
+            }
+        ]
+    },
+    {
+        "word": "đỏ",
+        "meanings": [
+            "red"
+        ],
+        "sentences": [
+            {
+                "en": "Apples are often red.",
+                "vn": "Táo thường có màu đỏ.",
+                "meanings": {
+                    "Táo": "Apple(s)",
+                    "thường": "often",
+                    "có màu đỏ": "are red color"
+                }
+            },
+            {
+                "en": "Stop at the red light.",
+                "vn": "Dừng lại khi đèn đỏ.",
+                "meanings": {
+                    "Dừng lại": "Stop",
+                    "khi": "when",
+                    "đèn đỏ": "red light"
+                }
+            }
+        ]
+    },
+    {
+        "word": "xanh",
+        "meanings": [
+            "blue",
+            "green"
+        ],
+        "sentences": [
+            {
+                "en": "The sea is blue.",
+                "vn": "Biển màu xanh dương.",
+                "meanings": {
+                    "Biển": "Sea",
+                    "màu xanh dương": "blue color (dương specifies blue)"
+                }
+            },
+            {
+                "en": "The leaves are green.",
+                "vn": "Lá cây màu xanh lá.",
+                "meanings": {
+                    "Lá cây": "Leaves",
+                    "màu xanh lá": "green color (lá specifies green)"
+                }
+            }
+        ]
+    },
+    {
+        "word": "vàng",
+        "meanings": [
+            "yellow",
+            "gold"
+        ],
+        "sentences": [
+            {
+                "en": "The sun is yellow.",
+                "vn": "Mặt trời màu vàng.",
+                "meanings": {
+                    "Mặt trời": "Sun",
+                    "màu vàng": "yellow color"
+                }
+            },
+            {
+                "en": "She wears a gold necklace.",
+                "vn": "Cô ấy đeo một sợi dây chuyền vàng.",
+                "meanings": {
+                    "Cô ấy": "She",
+                    "đeo": "wears (accessories)",
+                    "một sợi": "a/one (sợi is classifier for long thin things)",
+                    "dây chuyền": "necklace",
+                    "vàng": "gold"
+                }
+            }
+        ]
+    },
+    {
+        "word": "chồng",
+        "meanings": [
+            "husband"
+        ],
+        "sentences": [
+            {
+                "en": "This is my husband.",
+                "vn": "Đây là chồng tôi.",
+                "meanings": {
+                    "Đây": "This",
+                    "là": "is",
+                    "chồng tôi": "my husband"
+                }
+            },
+            {
+                "en": "Her husband is a doctor.",
+                "vn": "Chồng cô ấy là bác sĩ.",
+                "meanings": {
+                    "Chồng": "Husband",
+                    "cô ấy": "her",
+                    "là": "is",
+                    "bác sĩ": "doctor"
+                }
+            }
+        ]
+    },
+    {
+        "word": "vợ",
+        "meanings": [
+            "wife"
+        ],
+        "sentences": [
+            {
+                "en": "My wife is a teacher.",
+                "vn": "Vợ tôi là giáo viên.",
+                "meanings": {
+                    "Vợ tôi": "My wife",
+                    "là": "is",
+                    "giáo viên": "teacher"
+                }
+            },
+            {
+                "en": "He loves his wife very much.",
+                "vn": "Anh ấy rất yêu vợ.",
+                "meanings": {
+                    "Anh ấy": "He",
+                    "rất yêu": "loves very much",
+                    "vợ": "wife"
+                }
+            }
+        ]
+    },
+    {
+        "word": "con",
+        "meanings": [
+            "child",
+            "(classifier for animals)"
+        ],
+        "sentences": [
+            {
+                "en": "They have two children.",
+                "vn": "Họ có hai người con.",
+                "meanings": {
+                    "Họ": "They",
+                    "có": "have",
+                    "hai người con": "two children (người is classifier)"
+                }
+            },
+            {
+                "en": "Look at that dog!",
+                "vn": "Nhìn con chó kia kìa!",
+                "meanings": {
+                    "Nhìn": "Look",
+                    "con chó": "dog (con is classifier)",
+                    "kia kìa": "(particle indicating something over there)"
+                }
+            }
+        ]
+    },
+    {
+        "word": "cha / bố",
+        "meanings": [
+            "father"
+        ],
+        "sentences": [
+            {
+                "en": "My father works in Hanoi.",
+                "vn": "Bố tôi làm việc ở Hà Nội.",
+                "meanings": {
+                    "Bố tôi": "My father (bố is common in the North)",
+                    "làm việc": "works",
+                    "ở": "in/at",
+                    "Hà Nội": "Hanoi"
+                }
+            },
+            {
+                "en": "His father is retired.",
+                "vn": "Cha anh ấy đã nghỉ hưu.",
+                "meanings": {
+                    "Cha": "Father (more formal or Southern)",
+                    "anh ấy": "his",
+                    "đã nghỉ hưu": "has retired"
+                }
+            }
+        ]
+    },
+    {
+        "word": "mẹ / má",
+        "meanings": [
+            "mother"
+        ],
+        "sentences": [
+            {
+                "en": "My mother cooks very well.",
+                "vn": "Mẹ tôi nấu ăn rất ngon.",
+                "meanings": {
+                    "Mẹ tôi": "My mother (mẹ is common in the North)",
+                    "nấu ăn": "cooks",
+                    "rất ngon": "very delicious"
+                }
+            },
+            {
+                "en": "She lives with her mother.",
+                "vn": "Cô ấy sống với má.",
+                "meanings": {
+                    "Cô ấy": "She",
+                    "sống với": "lives with",
+                    "má": "mother (common in the South)"
+                }
+            }
+        ]
+    },
+    {
+        "word": "anh",
+        "meanings": [
+            "older brother",
+            "pronoun for male older than speaker or male peer/partner"
+        ],
+        "sentences": [
+            {
+                "en": "My older brother is tall.",
+                "vn": "Anh trai tôi rất cao.",
+                "meanings": {
+                    "Anh trai": "Older brother",
+                    "tôi": "my",
+                    "rất": "very",
+                    "cao": "tall"
+                }
+            },
+            {
+                "en": "Can you help me? (to an older male)",
+                "vn": "Anh có thể giúp em được không?",
+                "meanings": {
+                    "Anh": "You (older male)",
+                    "có thể": "can",
+                    "giúp": "help",
+                    "em": "me (younger person)",
+                    "được không": "(permission/request particle)"
+                }
+            }
+        ]
+    },
+    {
+        "word": "chị",
+        "meanings": [
+            "older sister",
+            "pronoun for female older than speaker"
+        ],
+        "sentences": [
+            {
+                "en": "My older sister lives abroad.",
+                "vn": "Chị gái tôi sống ở nước ngoài.",
+                "meanings": {
+                    "Chị gái": "Older sister",
+                    "tôi": "my",
+                    "sống": "lives",
+                    "ở nước ngoài": "abroad"
+                }
+            },
+            {
+                "en": "Excuse me (to an older female), where is the restroom?",
+                "vn": "Chị ơi, cho em hỏi nhà vệ sinh ở đâu ạ?",
+                "meanings": {
+                    "Chị ơi": "Excuse me (calling older female)",
+                    "cho em hỏi": "let me ask",
+                    "nhà vệ sinh": "restroom",
+                    "ở đâu": "where",
+                    "ạ": "(politeness particle)"
+                }
+            }
+        ]
+    },
+    {
+        "word": "em",
+        "meanings": [
+            "younger sibling",
+            "pronoun for person younger than speaker, or self-referential when talking to older person/partner"
+        ],
+        "sentences": [
+            {
+                "en": "I have one younger brother.",
+                "vn": "Tôi có một người em trai.",
+                "meanings": {
+                    "Tôi": "I",
+                    "có": "have",
+                    "một người": "one (person)",
+                    "em trai": "younger brother"
+                }
+            },
+            {
+                "en": "I don't understand (speaking to older person).",
+                "vn": "Em không hiểu.",
+                "meanings": {
+                    "Em": "I (younger person)",
+                    "không hiểu": "don't understand"
+                }
+            }
+        ]
+    },
+    {
+        "word": "chó",
+        "meanings": [
+            "dog"
+        ],
+        "sentences": [
+            {
+                "en": "That dog is very cute.",
+                "vn": "Con chó đó rất dễ thương.",
+                "meanings": {
+                    "Con chó": "Dog (con is classifier)",
+                    "đó": "that",
+                    "rất": "very",
+                    "dễ thương": "cute"
+                }
+            },
+            {
+                "en": "Do you have a dog?",
+                "vn": "Bạn có nuôi chó không?",
+                "meanings": {
+                    "Bạn": "You (informal/peer)",
+                    "có nuôi": "raise/keep (animal - in question form)",
+                    "chó": "dog",
+                    "không": "(end-sentence question particle)"
+                }
+            }
+        ]
+    },
+    {
+        "word": "mèo",
+        "meanings": [
+            "cat"
+        ],
+        "sentences": [
+            {
+                "en": "My cat likes to sleep.",
+                "vn": "Con mèo của tôi thích ngủ.",
+                "meanings": {
+                    "Con mèo": "Cat (con is classifier)",
+                    "của tôi": "my",
+                    "thích": "like",
+                    "ngủ": "sleep"
+                }
+            },
+            {
+                "en": "Be careful, the cat might scratch.",
+                "vn": "Cẩn thận, con mèo có thể cào.",
+                "meanings": {
+                    "Cẩn thận": "Be careful",
+                    "con mèo": "cat",
+                    "có thể": "might/can",
+                    "cào": "scratch"
+                }
+            }
+        ]
+    },
+    {
+        "word": "chim",
+        "meanings": [
+            "bird"
+        ],
+        "sentences": [
+            {
+                "en": "Birds are singing outside.",
+                "vn": "Chim đang hót ở ngoài.",
+                "meanings": {
+                    "Chim": "Bird(s)",
+                    "đang hót": "are singing/chirping",
+                    "ở ngoài": "outside"
+                }
+            },
+            {
+                "en": "That bird has beautiful feathers.",
+                "vn": "Con chim đó có bộ lông đẹp.",
+                "meanings": {
+                    "Con chim": "Bird (con is classifier)",
+                    "đó": "that",
+                    "có": "has",
+                    "bộ lông": "feathers/fur",
+                    "đẹp": "beautiful"
+                }
+            }
+        ]
+    },
+    {
+        "word": "cá",
+        "meanings": [
+            "fish"
+        ],
+        "sentences": [
+            {
+                "en": "I like to eat grilled fish.",
+                "vn": "Tôi thích ăn cá nướng.",
+                "meanings": {
+                    "Tôi": "I",
+                    "thích": "like",
+                    "ăn": "eat",
+                    "cá nướng": "grilled fish"
+                }
+            },
+            {
+                "en": "There are many fish in the lake.",
+                "vn": "Có nhiều cá trong hồ.",
+                "meanings": {
+                    "Có nhiều": "There are many",
+                    "cá": "fish",
+                    "trong": "in",
+                    "hồ": "lake"
+                }
+            }
+        ]
+    },
+    {
+        "word": "gà",
+        "meanings": [
+            "chicken"
+        ],
+        "sentences": [
+            {
+                "en": "Chicken noodle soup is delicious.",
+                "vn": "Phở gà rất ngon.",
+                "meanings": {
+                    "Phở gà": "Chicken pho",
+                    "rất": "very",
+                    "ngon": "delicious"
+                }
+            },
+            {
+                "en": "The chickens are pecking in the yard.",
+                "vn": "Đàn gà đang mổ thóc ngoài sân.",
+                "meanings": {
+                    "Đàn gà": "Flock of chickens",
+                    "đang mổ thóc": "are pecking grain",
+                    "ngoài sân": "outside in the yard"
+                }
+            }
+        ]
+    },
+    {
+        "word": "bò",
+        "meanings": [
+            "cow",
+            "beef"
+        ],
+        "sentences": [
+            {
+                "en": "Beef noodle soup (Pho Bo) is a famous Vietnamese dish.",
+                "vn": "Phở bò là một món ăn nổi tiếng của Việt Nam.",
+                "meanings": {
+                    "Phở bò": "Beef pho",
+                    "là": "is",
+                    "một": "a",
+                    "món ăn": "dish",
+                    "nổi tiếng": "famous",
+                    "của": "of",
+                    "Việt Nam": "Vietnam"
+                }
+            },
+            {
+                "en": "Cows are grazing in the field.",
+                "vn": "Đàn bò đang gặm cỏ trên đồng.",
+                "meanings": {
+                    "Đàn bò": "Herd of cows",
+                    "đang gặm cỏ": "are grazing grass",
+                    "trên đồng": "on the field"
+                }
+            }
+        ]
+    },
+    {
+        "word": "heo / lợn",
+        "meanings": [
+            "pig",
+            "pork"
+        ],
+        "sentences": [
+            {
+                "en": "I like eating roasted pork.",
+                "vn": "Tôi thích ăn thịt heo quay.",
+                "meanings": {
+                    "Tôi": "I",
+                    "thích": "like",
+                    "ăn": "eat",
+                    "thịt heo quay": "roasted pork (heo more common in South)"
+                }
+            },
+            {
+                "en": "Pigs are intelligent animals.",
+                "vn": "Lợn là loài động vật thông minh.",
+                "meanings": {
+                    "Lợn": "Pig (lợn more common in North)",
+                    "là": "are",
+                    "loài động vật": "animal species",
+                    "thông minh": "intelligent"
+                }
+            }
+        ]
+    },
+    {
+        "word": "cơm",
+        "meanings": [
+            "cooked rice",
+            "meal"
+        ],
+        "sentences": [
+            {
+                "en": "Have you eaten yet? (Literally: Have you eaten rice yet?)",
+                "vn": "Bạn ăn cơm chưa?",
+                "meanings": {
+                    "Bạn": "You (informal/peer)",
+                    "ăn cơm": "eat rice / eat a meal",
+                    "chưa": "yet?"
+                }
+            },
+            {
+                "en": "Please give me a bowl of rice.",
+                "vn": "Cho tôi xin một bát cơm.",
+                "meanings": {
+                    "Cho tôi xin": "Please give me (polite request)",
+                    "một bát": "one bowl",
+                    "cơm": "cooked rice"
+                }
+            }
+        ]
+    },
+    {
+        "word": "phở",
+        "meanings": [
+            "pho (Vietnamese noodle soup)"
+        ],
+        "sentences": [
+            {
+                "en": "Pho is a traditional Vietnamese breakfast.",
+                "vn": "Phở là món ăn sáng truyền thống của người Việt.",
+                "meanings": {
+                    "Phở": "Pho",
+                    "là": "is",
+                    "món ăn sáng": "breakfast dish",
+                    "truyền thống": "traditional",
+                    "của người Việt": "of Vietnamese people"
+                }
+            },
+            {
+                "en": "Which pho restaurant is the best?",
+                "vn": "Quán phở nào ngon nhất?",
+                "meanings": {
+                    "Quán phở": "Pho restaurant/stall",
+                    "nào": "which",
+                    "ngon nhất": "most delicious"
+                }
+            }
+        ]
+    },
+    {
+        "word": "bánh mì",
+        "meanings": [
+            "bread",
+            "Vietnamese sandwich"
+        ],
+        "sentences": [
+            {
+                "en": "I want to buy a banh mi sandwich.",
+                "vn": "Tôi muốn mua một ổ bánh mì.",
+                "meanings": {
+                    "Tôi": "I",
+                    "muốn": "want",
+                    "mua": "buy",
+                    "một ổ": "one loaf/unit (ổ is classifier for bread)",
+                    "bánh mì": "banh mi / bread"
+                }
+            },
+            {
+                "en": "Bread is made from flour.",
+                "vn": "Bánh mì được làm từ bột mì.",
+                "meanings": {
+                    "Bánh mì": "Bread",
+                    "được làm từ": "is made from",
+                    "bột mì": "flour"
+                }
+            }
+        ]
+    },
+    {
+        "word": "trà",
+        "meanings": [
+            "tea"
+        ],
+        "sentences": [
+            {
+                "en": "Would you like some tea?",
+                "vn": "Bạn có muốn uống trà không?",
+                "meanings": {
+                    "Bạn": "You (informal/peer)",
+                    "có muốn": "want (in question form)",
+                    "uống trà": "drink tea",
+                    "không": "(end-sentence question particle)"
+                }
+            },
+            {
+                "en": "Green tea is good for health.",
+                "vn": "Trà xanh tốt cho sức khỏe.",
+                "meanings": {
+                    "Trà xanh": "Green tea",
+                    "tốt cho": "good for",
+                    "sức khỏe": "health"
+                }
+            }
+        ]
+    },
+    {
+        "word": "cà phê",
+        "meanings": [
+            "coffee"
+        ],
+        "sentences": [
+            {
+                "en": "I drink coffee every morning.",
+                "vn": "Tôi uống cà phê mỗi buổi sáng.",
+                "meanings": {
+                    "Tôi": "I",
+                    "uống": "drink",
+                    "cà phê": "coffee",
+                    "mỗi buổi sáng": "every morning"
+                }
+            },
+            {
+                "en": "Vietnamese iced coffee with milk is very popular.",
+                "vn": "Cà phê sữa đá Việt Nam rất phổ biến.",
+                "meanings": {
+                    "Cà phê sữa đá": "Iced coffee with milk",
+                    "Việt Nam": "Vietnamese",
+                    "rất": "very",
+                    "phổ biến": "popular"
+                }
+            }
+        ]
+    },
+    {
+        "word": "bia",
+        "meanings": [
+            "beer"
+        ],
+        "sentences": [
+            {
+                "en": "Let's go drink beer!",
+                "vn": "Đi uống bia đi!",
+                "meanings": {
+                    "Đi uống bia": "Go drink beer",
+                    "đi": "(urging particle)"
+                }
+            },
+            {
+                "en": "Would you like another beer?",
+                "vn": "Bạn có muốn uống thêm bia không?",
+                "meanings": {
+                    "Bạn": "You (informal/peer)",
+                    "có muốn": "want (in question form)",
+                    "uống thêm": "drink more",
+                    "bia": "beer",
+                    "không": "(end-sentence question particle)"
+                }
+            }
+        ]
+    },
+    {
+        "word": "sữa",
+        "meanings": [
+            "milk"
+        ],
+        "sentences": [
+            {
+                "en": "Children should drink milk every day.",
+                "vn": "Trẻ em nên uống sữa mỗi ngày.",
+                "meanings": {
+                    "Trẻ em": "Children",
+                    "nên": "should",
+                    "uống sữa": "drink milk",
+                    "mỗi ngày": "every day"
+                }
+            },
+            {
+                "en": "Do you want coffee with or without milk?",
+                "vn": "Bạn muốn cà phê có sữa hay không sữa?",
+                "meanings": {
+                    "Bạn": "You (informal/peer)",
+                    "muốn": "want",
+                    "cà phê": "coffee",
+                    "có sữa": "with milk",
+                    "hay": "or",
+                    "không sữa": "without milk"
+                }
+            }
+        ]
+    },
+    {
+        "word": "đá",
+        "meanings": [
+            "ice",
+            "stone",
+            "kick"
+        ],
+        "sentences": [
+            {
+                "en": "Please give me iced tea.",
+                "vn": "Cho tôi xin trà đá.",
+                "meanings": {
+                    "Cho tôi xin": "Please give me (polite request)",
+                    "trà đá": "iced tea"
+                }
+            },
+            {
+                "en": "This road has many stones.",
+                "vn": "Con đường này có nhiều đá.",
+                "meanings": {
+                    "Con đường": "Road",
+                    "này": "this",
+                    "có nhiều": "has many",
+                    "đá": "stone(s)"
+                }
+            },
+            {
+                "en": "He kicked the ball.",
+                "vn": "Anh ấy đã đá quả bóng.",
+                "meanings": {
+                    "Anh ấy": "He",
+                    "đã": "(past tense marker)",
+                    "đá": "kicked",
+                    "quả bóng": "ball"
+                }
+            }
+        ]
+    },
+    {
+        "word": "lửa",
+        "meanings": [
+            "fire"
+        ],
+        "sentences": [
+            {
+                "en": "Be careful with fire.",
+                "vn": "Cẩn thận với lửa.",
+                "meanings": {
+                    "Cẩn thận": "Be careful",
+                    "với": "with",
+                    "lửa": "fire"
+                }
+            },
+            {
+                "en": "They made a campfire.",
+                "vn": "Họ đã nhóm lửa trại.",
+                "meanings": {
+                    "Họ": "They",
+                    "đã": "(past tense marker)",
+                    "nhóm lửa trại": "made a campfire"
+                }
+            }
+        ]
+    },
+    {
+        "word": "gió",
+        "meanings": [
+            "wind"
+        ],
+        "sentences": [
+            {
+                "en": "The wind is blowing strongly.",
+                "vn": "Gió thổi mạnh.",
+                "meanings": {
+                    "Gió": "Wind",
+                    "thổi mạnh": "blows strongly"
+                }
+            },
+            {
+                "en": "Let's fly a kite when it's windy.",
+                "vn": "Chúng ta hãy thả diều khi trời có gió.",
+                "meanings": {
+                    "Chúng ta": "We (inclusive)",
+                    "hãy": "let's",
+                    "thả diều": "fly a kite",
+                    "khi": "when",
+                    "trời có gió": "it's windy (weather has wind)"
+                }
+            }
+        ]
+    }
+]

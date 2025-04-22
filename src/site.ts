@@ -1,6 +1,5 @@
-import FaGithub from 'svelte-icons/fa/FaGithub.svelte';
-import FaSpotify from 'svelte-icons/fa/FaSpotify.svelte';
-import FaMailBulk from 'svelte-icons/fa/FaMailBulk.svelte';
+import { Github as FaGithub, AudioLines as FaSpotify, Send as FaMailBulk } from '@lucide/svelte';
+
 // Assets
 import PfOurSpaces from "@assets/images/sc_spaces.png"
 import PfAmchem from "@assets/images/sc_amc.jpg"
