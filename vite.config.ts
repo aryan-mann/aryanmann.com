@@ -7,7 +7,6 @@ const config = {
 		imagetools({
 			defaultDirectives: (url: URL): URLSearchParams => {
 				if (url.pathname.endsWith("gif")) {
-					console.log(url)
 					return new URLSearchParams()
 				}
 				return new URLSearchParams({ format: 'webp' })
